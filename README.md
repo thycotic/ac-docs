@@ -1,5 +1,9 @@
+[title]: # (readme)
+[tags]: # (readme)
+[priority]: # (1)
+[display]: # (none)
 # Thycotic Access Control Solutions
 
-This is the documentation repository for publicly available technical documentation for Thycotic's Access Control solutions.
+Welcome to the public documentation repository for Thycotic's Access Control solutions.
 
-The documents are published at docs.thycotic.com/tac.
+To access published Thycotic's Access Control documentation visit https://docs.thycotic.com/tac.
