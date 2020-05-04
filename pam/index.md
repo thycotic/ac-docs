@@ -1,6 +1,6 @@
 [title]: # (PAM Overview)
 [tags]: # (thycotic access control)
-[priority]: # (200)
+[priority]: # (99)
 # Server PAM
 
 Thycotic's Server PAM secures privileges for accounts on Cloud Servers (AWS, Rackspace, SoftLayer, private clouds), Containers (Docker, CoreOS) and Web Applications (Salesforce, Office 365, Google) in 60 seconds.

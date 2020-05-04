@@ -1,6 +1,6 @@
 [title]: # (DR/HA Overview)
 [tags]: # (thycotic access control)
-[priority]: # (300)
+[priority]: # (1)
 # Disaster Recovery and High Availability Overview
 
 Thycotic Access Control is a single pane of glass to provide security, visibility and auditing for any enterprise. Thycotic Access Control’s flexible and powerful solution provides you with the power of choice. Enterprises select how much security is right for them and how they want to implement it. This document describes the measures taken by Thycotic Access Control to provide for disaster recovery and high availability for all customers.

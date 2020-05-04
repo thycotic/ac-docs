@@ -14,4 +14,3 @@ The link in the registration email, directs you to the __Thycotic Access Control
 ## Setting new Password
 
 You must set a new password for your account. When the new password is set, you will automatically be logged in and redirected to your dashboard. Use the dashboard to setup and manage the Thycotic Access Controller for your organization.
-
