@@ -2,8 +2,8 @@
 [tags]: # (readme)
 [priority]: # (1)
 [display]: # (none)
-# Thycotic Access Control Solutions
+# Thycotic Access Control Solution
 
-Welcome to the public documentation repository for Thycotic's Access Control solutions.
+Welcome to the public documentation repository for Thycotic's Access Control solution.
 
-To access published Thycotic's Access Control documentation visit https://docs.thycotic.com/tac.
+To access published Thycotic Access Control documentation visit https://docs.thycotic.com/ac.

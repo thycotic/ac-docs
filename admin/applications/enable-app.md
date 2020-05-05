@@ -8,11 +8,8 @@ Requirements: The application must exists in the panel. If it does not exist, se
 To setup the applications for your users,
 
 1. Select __Applications__ from the left menu.
-1. Under each listed application click either
+1. Under each listed application slide the on/off switch to enable or disable the application respectively.
 
-   * Enabled or
-   * Disabled
+   ![on/off switch](images/on-off.png "Enabling/Disabling applications via on/off switch")
 
-   to enable or disable the application respectively.
-
->**Note**: Remember to add a new [access policy](todo) for each enabled application.
+>**Note**: Remember to add a new [access policy](../policies/index.md#create_an_application_policy) for each enabled application.

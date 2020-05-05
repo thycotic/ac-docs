@@ -3,12 +3,22 @@
 [priority]: # (3)
 # Applications
 
+Under Applications you find the applications that have been made available in your company's portal. Use the applications area to add, configure, and remove applications.
+
+![applications home](images/applications.png "Applications home page")
+
+To filter application based on state, select the Filter drop-down:
+
+![filter applications](images/cfg-drop-down.png "Filtering applications based on state and category")
+
 ## Add an Application
 
 If you wish to include an application that is not in the list of available applications, follow these steps:
 
 1. Select __Applications__ from the left menu.
-1. Click __Add Application__. 
+1. Click __Add Application__.
+
+   ![add app](images/new-app.png "New Application modal")
 1. On the __New Application__ modal enter
 
    * the Application URL and
