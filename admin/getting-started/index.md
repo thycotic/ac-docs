@@ -11,6 +11,12 @@ The link in the registration email, directs you to the __Thycotic Access Control
 
 ![login page](images/login.png "Thycotic Access Controller login page")
 
+## User Avatar
+
+You can access your account details and avatar settings via the user name link on the top right corner of the screen.
+
+![avatar](images/user.png "User avatar menu")
+
 ## Setting new Password
 
 You must set a new password for your account. When the new password is set, you will automatically be logged in and redirected to your dashboard. Use the dashboard to setup and manage the Thycotic Access Controller for your organization.
