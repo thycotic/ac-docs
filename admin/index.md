@@ -9,7 +9,7 @@ This is a reference document that provides detailed instructions and references 
 
 Topics:
 
-* [Activation](gettings-started/index.md)
+* [Activation](getting-started/index.md)
 * [Applications](applications/index.md)
 * [Policies](policies/index.md)
 * [Users & Groups](users/index.md)
