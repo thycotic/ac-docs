@@ -11,22 +11,21 @@ The goals of this topic is to describe
    * can scale according to the incoming traffic
 1. the monitoring of the applications
 
-
 ## Breaking Down the Services
 
-Access Control collection of micro-services that interact together. Some are deployed on isolated hosts and some are clustered together. There are four (4) clusters of services:
+The access controllers are a collection of micro-services that interact together. Some are deployed on isolated hosts and some are clustered together. There are four (4) clusters of services:
 
 1. the panel services that consist of
 
-   * the admin dashboard 
+   * the admin dashboard
    * the API
    * LDIFizer
-1. the proxy services that consist of 
+1. the proxy services that consist of
 
    * the SSH piper proxy
-   * the RDP proxy 
+   * the RDP proxy
 1. the router service
-1. the Vault’s [1] secrets management service
+1. the vault’s secrets management service
 
 Each service is independently configured, deployed and managed. However, services that belong to the same cluster are deployed to the same hosts, thus must scale together.
 
@@ -38,7 +37,7 @@ All the various components are deployed within a Virtual Private Zone (VPZ).
 
 ### Panel Services
 
-This is the most complex cluster of services in Thycotic's access control solution. __Figure 1__ shows an overview of its topology.
+This is the most complex cluster of services in Thycotic's access control solution.
 Load Balancer (LB) The internet-facing component. The main role of the LB is to automatically distribute incoming traffic to instances that host the panel services. Additionally, (optionally) it handles the HTTPS encryption & decryption process (SSL termination).
 
 The services running on those instances are thus protected from failures in a single location. There will always be at least one host available to handle requests. Unhealthy hosts are automatically detected and bypassed so that the services are getting the computing capacity we want.
@@ -53,4 +52,4 @@ The SSH piper service can store session log files in object storage that are lat
 
 ## Monitoring
 
-A lot of thought has been put into the monitoring plan of the infrastructure and application components of the Thycotic Access Control solution. The definite goal is to identify and easily debug any single or multi-point failures. __Figure 3__ shows an overview of the monitoring scheme. All the application logs are kept centrally.
+A lot of thought has been put into the monitoring plan of the infrastructure and application components of the Thycotic Access Control solution. The definite goal is to identify and easily debug any single or multi-point failures. All the application logs are kept centrally.

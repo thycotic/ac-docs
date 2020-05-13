@@ -1,7 +1,7 @@
 [title]: # (PAM Overview)
 [tags]: # (thycotic access control)
 [priority]: # (99)
-# Server PAM
+# Server Privileged Access Management
 
 Thycotic's Server PAM secures privileges for accounts on Cloud Servers (AWS, Rackspace, SoftLayer, private clouds), Containers (Docker, CoreOS) and Web Applications (Salesforce, Office 365, Google) in 60 seconds.
 
@@ -17,18 +17,15 @@ Thycotic's Server PAM provides an easy Privilege Grant and Management mechanism 
 
 #### Compliance
 
-Clearly demonstrate the ability to control user identities for access to server clusters. Comply with requirements that prevent providing passwords for servers to employees. Comply with automated password and key reset requirements while
-being able to show separation of roles and duties on every server in a cluster. Generate automatic compliance reports and cut down manual effort.
+Clearly demonstrate the ability to control user identities for access to server clusters. Comply with requirements that prevent providing passwords for servers to employees. Comply with automated password and key reset requirements while being able to show separation of roles and duties on every server in a cluster. Generate automatic compliance reports and cut down manual effort.
 
 #### Auditing
 
-Capability to Audit who has access to what. Drill in deeper to see how much access a person has inside any server, whether they are part of privileged groups, and what commands have been executed by them. This helps with visibility
-into how highly sensitive accounts on servers are being used (e.g. Root/sudo accounts on Linux servers). Identify anomalies within groups of users to see which individual has unusually permissive access rights.
+Capability to Audit who has access to what. Drill in deeper to see how much access a person has inside any server, whether they are part of privileged groups, and what commands have been executed by them. This helps with visibility into how highly sensitive accounts on servers are being used (e.g. Root/sudo accounts on Linux servers). Identify anomalies within groups of users to see which individual has unusually permissive access rights.
 
 #### Security
 
-Prevent misuse accidental or malicious of privileged accounts on servers. Layer the trust by verify model by generating video recordings of SSH and RDP sessions, and have the ability to search via text through each session. Use
-limited shell based features, command restrictions, set up break the glass accounts and IP ranges and control parallel sessions easily with built in MFA policies.
+Prevent misuse - accidental or malicious - of privileged accounts on servers. Layer the trust by verify model by generating video recordings of SSH and RDP sessions, and have the ability to search via text through each session. Use limited shell based features, command restrictions, set up break the glass accounts and IP ranges and control parallel sessions easily with built in MFA policies.
 
 #### Sample Workflow
 

@@ -3,7 +3,7 @@
 [priority]: # (201)
 # Internal Security Posture
 
-Enterprises select how much security is right for them and how they want to implement it. This document describes the measure taken by Thycotic to protect your information.
+Enterprises select how much security is right for them and how they want to implement it. This topic describes the measure taken by Thycotic to protect your information.
 
 Thycotic respects privacy for all customer data and secures all information related to customer usage of applications and servers. Security is of paramount concern to us.
 
@@ -31,4 +31,4 @@ Thycotic Access Control takes encryption seriously. Every communication to and f
 * Hashing: sha256 (salted).
 * Key lengths: 32 bytes (uses openSSL for randomness and other crypto ops).
 * Keys are created per password (different keys for different accounts, even for the same user).
-* Keys are stored in a separated database, completely isolated. It uses its own data encryption as well, refer to http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html.  
+* Keys are stored in a separated database, completely isolated. It uses its own data encryption as well, refer to http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Overview.Encryption.html.

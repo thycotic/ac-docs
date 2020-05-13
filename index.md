@@ -5,13 +5,13 @@
 
 Thycotic's Access Control solution provides access management for
 
-- cloud platforms, via the Cloud Access Controller.
-- databases, via the Database Access Controller.
-- remote locations, via the Remote Access Controller.
+- cloud platforms, via the __Cloud Access Controller__.
+- databases, via the __Database Access Controller__.
+- remote locations, via the __Remote Access Controller__.
 
-Basically cloud-based SaaS security solutions that gives organizations the ability to control access across all their properties.
+Basically cloud-based SaaS security solutions that give organizations the ability to control access across all their properties.
 
-This documentation repository contains general information pertaining to privilege managed access technology in general and how any of these products can secure your infrastructure in specific areas or as a integrated multi-product solution.
+This documentation repository contains information pertaining to privilege managed access technology utilizing Thycotic's Access Controllers and how any of the access controller products can secure your infrastructure in specific areas and as an integrated multi-product solution.
 
 * Infrastructure Access Management - Makes sure that only employees get access to organizations´ Cloud Servers and Containers. With a zero software agent approach no server modifications are needed.
 * Dynamic Privilege Management - Helps organizations to easily specify which employee can access what on a website or server. Each action is risk scored using machine learning to detect and prevent threats. Policy setup is easy, flexible and no server or website changes are needed.
@@ -20,6 +20,7 @@ This documentation repository contains general information pertaining to privile
 * Invisible Identity Verification - Helps employees get access to what they need without putting up roadblocks. Two Factor Authentication can be a nuisance. There is no need for 8 digit code login and no hardware to carry. With multiple choices like Geofencing, Geoproximity, AirShake, and Touch ID, the access control solution conveniently merges security and usability.
 * User Management - With automatic password resets and LDAP/AD integration, the access control solution makes life easier by integrating with organization´s central directory to maintain a single source of truth. Templates help to automatically create user accounts for new employees and disable accounts for the ones that are no longer employed.
 
+<!--
 ## Why Thycotic Access Control
 
 | No Heavy Agent | No Tokens | Easy Password | No Manual | No SMS |
@@ -28,24 +29,16 @@ This documentation repository contains general information pertaining to privile
 
 ### Deployment
 
-Deploy The Cloud Access Controller as you like. Either use our SaaS service or deploy in your AWS
-VPC or On-Premise.
+Deploy The Cloud Access Controller as you like. Either use our SaaS service or deploy in your AWS VPC or On-Premise.
 
 #### SaaS Deployment
 
-The Cloud Access Controller helps enterprises protect privileged accounts on by SaaS web
-applications and servers. The Cloud Access Controller respects security, privacy and legal
-restrictions that you may have. Our SaaS service is hosted in AWS.
+The Cloud Access Controller helps enterprises protect privileged accounts on SaaS web applications and servers. The Cloud Access Controller respects security, privacy and legal restrictions that you may have. Our SaaS service is hosted in AWS.
 
 #### AWS Cloud Deployment
 
-The Cloud Access Controller’s AWS cloud deployment comes built-in with High Availability,
-Multi-Zone Support, Automated Load Balancing, Read Replica scaling and scalable
-alerting. Customer can get the experience of a SaaS hosted solution, while all
-their data and keys are held in their private AWS cluster.
+The Cloud Access Controller’s AWS cloud deployment comes built-in with High Availability, Multi-Zone Support, Automated Load Balancing, Read Replica scaling and scalable alerting. Customer can get the experience of a SaaS hosted solution, while all their data and keys are held in their private AWS cluster.
 
 #### On-Premise Deployment
 
-The Cloud Access Controller’s On-Premise deployment provides Xen, KVM, VMware and Docker images.
-These images can be deployed by any standard hypervisor or modern orchestration
-platform and come with configuration scripts.
+The Cloud Access Controller’s On-Premise deployment provides Xen, KVM, VMware and Docker images. These images can be deployed by any standard hypervisor or modern orchestration platform and come with configuration scripts. -->
