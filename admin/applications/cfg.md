@@ -40,12 +40,12 @@ You can schedule a session by clicking __Schedule recording sessions__ on the ri
 ### View Recorded Sessions
 
 Click __View recorded sessions__ on the right hand side of the main panel. A list of every completed session will be displayed sorted by user.
-
-![TODO](images/rec-table.png "Select from the recorded sessions table")
+<!--
+![TODO](images/rec-table.png "Select from the recorded sessions table") -->
 
 You can either watch the video for a session by clicking on __play__ or download it in mpeg-4 format to your machine via __Download__ button.
-
-![TODO](images/recording.png "Watch or download a recorded session video")
+<!--
+![TODO](images/recording.png "Watch or download a recorded session video") -->
 
 Recordings, which are running at the time, can be seen in the __Active Sessions__ tab. From there, you can watch the video recording up to that point, while in the background the recording continues.
 
@@ -69,8 +69,10 @@ Remember to click __Update__ for changes to take effect.
 
 ## Enable Mobile Browsing
 
-If you wish your users to be able to login to an application through their mobile devices, you need to have __Enable mobile browsing__ checked. Users will be able to perform the actions listed below in order to login successfully to the app.
+If you wish your users to be able to login to an application through their mobile devices, you need to have __Enable mobile browsing__ checked. Refer to [Mobile Device Registration](../getting-started/mobile.md).
 
+<!--
+Users will be able to perform the actions listed below in order to login successfully to the app.
 User interaction example:
 
 1. Presses the Application button at the bottom of the screen.
@@ -91,7 +93,7 @@ User interaction example:
 6. User has successfully logged in.
 
    ![TODO](images/in-app.png "User in application")
-
+-->
 ## Set Location Based Blocking
 
 If checked, organization users will be able to login only from a specific location, defined by their location during first login since this feature became enabled.
@@ -122,14 +124,14 @@ Select __Reset__ in the __Reset Password__ column in order for a custom-made pas
 
 You are able to apply extra policies for different (application related) URLs in the __Privileged URLs__ section.
 
-![TODO](images/one-policy.png "Setting one policy for restricted URLs")
+![one](images/one-policy.png "Setting one policy for restricted URLs")
 
 Privileged URLs are grouped by policy. Default policy is __Restrict all__ which prevents users to access URLs listed in the text area on the left of the policy.
 
 * Αdd a new app related URL by typing the address in the policy related text area. You are free to add as many URLs as you want.
 * Add a new policy for a group of URLs by clicking the “Add new” button. You are free to add as many policies as you want.
-
-![TODO](images/multiple.png "Setting multiple policies for restricted URLs")
+<!--
+![TODO](images/multiple.png "Setting multiple policies for restricted URLs")-->
 
 Remember to __Save changes__ for changes to take effect.
 
@@ -145,7 +147,7 @@ An administrator can block(protect) three type of elements:
 * Text
 * Forms
 
->**Note**: Details regarding browser extension features are covered in [Browser Extensions](../be/index.md) section.
+>**Note**: Details regarding browser extension features are covered in [Browser Extensions](../getting-started/be.md) section.
 
 Both element type and code are displayed for better understanding and monitoring. If you wish to terminate blocking in specific element, just click __Remove element__.  
 
@@ -159,13 +161,13 @@ The __Defined groups__ section consists of a list of every group that has been c
 
 ## Registered Users for Application
 
-Requirements: The access controller browser extension must be used to log in to an app at least once (by a user) for information to be displayed. To see how extension works see the [browser extension manual](TODO.md).
+Requirements: The access controller browser extension must be used to log in to an app at least once (by a user) for information to be displayed. To see how extension works see the [browser extension topic](../getting-started/be.md).
 
 Lists stored user credentials and password information for this application (Figure 2.14).
 
 ![registered app users](images/reg-apps.png "Registered Application users table")
 
-Password reset interval default setting for each account is the one set for the entire application (See Set Password Reset Interval for more info). However, Onion ID provides you with the option to set custom interval for an account. You can choose between Never, 30, 60 or 90 days.  Remember to click “Save changes” button for changes to take effect.
+Password reset interval default setting for each account is the one set for the entire application. However, you have the option to set custom intervals for an account. You can choose between Never, 30, 60 or 90 days. Remember to click “Save changes” button for changes to take effect.
 
 ### Reset Password
 
