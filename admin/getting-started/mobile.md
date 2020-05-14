@@ -12,7 +12,7 @@ After installing the OnionID (Thycotic Access Controller) Application from your 
 1. Open the newly installed mobile application.
 1. The application prompts you for a registration code:
 
-   ![reg code mobile](images/mobile-reg.png "Mobile app prompting for registration code")
+   ![reg code mobile](images/mobile-reg-code.png "Mobile app prompting for registration code")
 
    Use the registration code that was emailed and that you also used in the browser extension registration.
 
@@ -58,7 +58,7 @@ In the mobile app you can change the PIN and unregister the mobile device from t
 
 1. Navigate to the mobile app settings via gear on the main mobile app screen.
 
-   ![main mobile](images/no-pendine.png "Settings gear on main mobile app screen")
+   ![main mobile](images/no-pending.png "Settings gear on main mobile app screen")
 
    Click the __gear__ in the upper right corner.
 1. You can now change your authentication PIN or Unregister the app:
