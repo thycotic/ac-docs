@@ -26,3 +26,14 @@ You must set a new password for your account. When the new password is set, you 
 After you are logged in, the home dashboard opens. Showing default statistics for your portal.
 
 ![home page](images/home.png "Thycotic Access Controller default home dashboard")
+
+## User Registration - Browser/Mobile App
+
+With the login or user creating in the Access Controller portal, a Registration Code is emailed to the user. In case the registration code needs to be resend, 
+
+1. Navigate to __User & Groups__.
+1. Select the user entry and click __Remind Reg. Code__.
+
+   ![remind registration code](images/remind-reg-code.png "Trigger email with Registration code")
+
+The email will have links to the browser extension and mobile app stores to register the browser extension and also mobile device.
