@@ -25,7 +25,7 @@ After installing the OnionID (Thycotic Access Controller) Application from your 
 1. Back at your computer, if you are currently logged into the panel, logout and reload the login page. Users that have not accessed the panel, open the login URL.
 1. In the register modal, provide your user email and password, click __Register__.
 
-   ![register](images/register.png "Register the user account with the mobile app for authentication")
+   ![register](images/register-1.png "Register the user account with the mobile app for authentication")
 
 You mobile device is now registered and ready to be used for subsequent logins.
 
