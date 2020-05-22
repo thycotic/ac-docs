@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Activation
 
-Either after setup of your organization by the Thycotic team on the SaaS Thycotic Access Controller or the completion of the Thycotic Access Controller on-premises installation, you (the administrator) will receive an email with credentials (username & password) to login into your admin account. You will also receive a link for activating your newly created account. The email arrives from __Thycotic Cloud Access Support__.
+Either after setup of your organization by the Thycotic team on the Thycotic Access Controller or the completion of the Thycotic Access Controller on-premises installation, you (the administrator) will receive an email with credentials (username & password) to login into your admin account. You will also receive a link for activating your newly created account. The email arrives from __Thycotic Cloud Access Support__.
 
 ![registration email](images/reg-email.png "Thycotic Access Controller registration email sample text")
 
@@ -11,11 +11,19 @@ The link in the registration email, directs you to the __Thycotic Access Control
 
 ![login page](images/login.png "Thycotic Access Controller login page")
 
-## User Avatar
+## User Account
 
-You can access your account details and avatar settings via the user name link on the top right corner of the screen.
+You can access your account details via the user name link on the top right corner of the screen.
 
 ![avatar](images/user.png "User avatar menu")
+
+### Account Setting
+
+User account details can be edited via the Account Settings menu option.
+
+![settings](images/edit-user.png "Edit User Account Settings")
+
+![settings-2](images/edit-user-2.png "Continued: Edit User Account Settings")
 
 ## Setting new Password
 

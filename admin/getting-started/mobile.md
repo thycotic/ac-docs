@@ -25,7 +25,7 @@ After installing the OnionID (Thycotic Access Controller) Application from your 
 1. Back at your computer, if you are currently logged into the panel, logout and reload the login page. Users that have not accessed the panel, open the login URL.
 1. In the register modal, provide your user email and password, click __Register__.
 
-<!-- TODO   ![register](images/register.png "Register the user account with the mobile app for authentication") -->
+   ![register](images/register.png "Register the user account with the mobile app for authentication")
 
 You mobile device is now registered and ready to be used for subsequent logins.
 
@@ -54,7 +54,7 @@ After you successfully registered your user account the your mobile device app, 
 
 ## Mobile App Settings
 
-In the mobile app you can change the PIN, unregistern and access application logins that are setup for your company. 
+The mobile app also lets you change your PIN. Provides an unregister option and in-app browsing of applications that are setup for your company profile. 
 
 ### Unregister
 
