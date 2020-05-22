@@ -1,9 +1,13 @@
 [title]: # (Browser Extensions)
 [tags]: # (thycotic access control)
 [priority]: # (2)
-# Browser Extensions
+# Browser Extension
 
-After installing the Thycotic Access Controller extension from the browser store, you will see a banner in your browser to register your extension.
+Use the link from your _Thycotic Access Controller Initial Set Up_ email and visit your default browser's extension store to install the Thycotic Access Controller browser extension, shown here for Chrome:
+
+![ac extension](images/be-icon.png "Browser Extension icon")
+
+Once the extension is installed and you open the Access Controller login page, the registration banner is displayed on top of your login page.
 
 ![extension registration](images/be-reg.png "Browser Extension registration reminder")
 
