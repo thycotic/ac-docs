@@ -138,8 +138,8 @@ Remember to __Save changes__ for changes to take effect.
 ## View/Remove Blocked Elements
 
 In the __Blocked Elements__ section you can review every element of an application’s page that might have been blocked through the administrator browser extension.
-
-![TODO](images/blocked.png "Viewing blocked elements")
+<!-- 
+![TODO](images/blocked.png "Viewing blocked elements") -->
 
 An administrator can block(protect) three type of elements:
 

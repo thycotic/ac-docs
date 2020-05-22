@@ -26,15 +26,15 @@ Now, your newly added URL is displayed in the blocked URLs table at the top of t
 
 You are able to prevent your organization users from accessing unwanted websites by blocking URLs that fall in some sensitive categories (See Web Filtering for more details).
 
-Under __Categories__ is a list showing all available filtered categories. Check the box next to each category to enable blocking to every website that belongs to it (See Table of default Filtered URLs for detailed category URLs).
+Under __Categories__ is a list showing all available filtered categories. Check the box next to each category to enable blocking to every website that belongs to it.
+<!--
+![TODO](images/blocked-cat.png "Blocked content categories") -->
 
-![TODO](images/blocked-cat.png "Blocked content categories")
-
-### Add organization Exception URL
+### Add Organization Exception URL
 
 Similar with adding your own blocked URLs, you can whitelist some of the default blocked URLs. Click on __Exceptions__ on the bottom right corner of the main panel and then select one of the filtered categories that the desired URL belongs to.
-
-![TODO](images/new-url-ex.png "Add exception URL")
+<!--
+![TODO](images/new-url-ex.png "Add exception URL") -->
 
 Then choose the desired URL from the list and click __Add Exception__ to save your changes.
 
