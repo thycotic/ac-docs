@@ -37,13 +37,15 @@ You are able to create new policies.
 
 1. Click on __Add New Policy__ located in the top right corner of the main panel.
 
-   ![TODO](images/add-new-pol.png "Add a new policy")
+   ![new policy](images/add-new-pol.png "Add a new policy")
 1. On the __Add new policy__ modal,
 
    * enter the new policy name, and
    * select (optionally) any application or server that will be affected by this policy. You can leave these two fields blank and set the application policy later from the applications’ configuration panel, refer to [Set Policy for Application](../applications/cfg.md#set_policy_for_application).
 
-It is mandatory to set an Authentication Technique for the new policy. As described above, Authentication Technique is a combination of up to 3 different authentication methods, so click on the dropdown menus to select the desired methods for this policy.
+>**Note**: It is mandatory to set an Authentication Technique for the new policy. As described above, Authentication Technique is a combination of up to 3 different authentication methods, so click on the dropdown menus to select the desired methods for this policy.
+
+Use the scroll bar to scroll through the whole __Add New Policy__ modal and set any other configurations you may require.
 
 ### Enable Fallback to Master Password
 
