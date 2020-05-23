@@ -3,7 +3,7 @@
 [priority]: # (9)
 # Compliance Reports
 
-![TODO](images/gen-comp-report.png "Generate compliance report")
+![compliance](images/compliance-report.png "Generate compliance report")
 
 You are able to create an extended report regarding web applications, servers and users of your organization that will contain data needed for you to have a complete and detailed overview.
 

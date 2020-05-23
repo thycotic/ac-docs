@@ -1,6 +1,7 @@
 [title]: # (Storage)
 [tags]: # (thycotic access control)
 [priority]: # (10)
+[display]: # (none)
 # Storage
 
 Storage works like a vault. Here you can save passwords, API or SSH keys, bank accounts and every sensitive information that needs to be stored in the panel.

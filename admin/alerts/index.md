@@ -3,7 +3,7 @@
 [priority]: # (9)
 # Alerts
 
-![TODO](images/alerts.png "Alert Settings")
+![alerts](images/alerts.png "Alert Settings")
 
 Access Control helps you stay alert when organization users perform actions that can lead to security issues. You can enable alerts based on the action you want to monitor and receive notifications through email or SMS when the alert condition is met.
 
@@ -15,4 +15,4 @@ On the right hand side column of the main panel, you can find some useful statis
 
 In case you need to receive an alert notification for an action that we have not included in the Alert panel, you can request for a new alert. Click on the __Request new alert__ button at the bottom of the page and from the popup window that comes up select the type of the alert and enter a small description. Onion ID team will receive your request and try to integrate the requested alert in the panel asap.
 
-![TODO](images/alert-req.png "New alert request")
+![request](images/alert-req.png "New alert request")
