@@ -17,5 +17,4 @@ Topics:
 * [Utilization](utilization/index.md)
 * [Reports](reports/index.md)
 * [Alerts](alerts/index.md)
-* [Storage](storage/index.md)
 * [Settings](settings/index.md)

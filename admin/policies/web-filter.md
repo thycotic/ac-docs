@@ -5,9 +5,9 @@
 
 ![web filtering](images/web-filter.png "Web filtering page")
 
-Thycotic has the power to block organization users for accessing unwanted websites that fall in some sensitive categories such as Adult, Social, Gambling, Gaming and Torrents.
+With the Thycotic Access Controller you have the power to block your organization's users from accessing unwanted websites that fall in some sensitive categories such as Adult, Social, Gambling, Gaming and Torrents.
 
-In addition, provides you with the ability to extend the list of blocked websites by adding your own URLs or allow some of the ones that already exists in the default list.
+In addition, the access controller provides you with the ability to extend the list of blocked websites by adding your own URLs or allow some of the ones that already exists in the default list.
 
 ## Add Organization Blocked URLs
 
@@ -24,7 +24,7 @@ Now, your newly added URL is displayed in the blocked URLs table at the top of t
 
 ## Enable/Disable Blocked Categories
 
-You are able to prevent your organization users from accessing unwanted websites by blocking URLs that fall in some sensitive categories (See Web Filtering for more details).
+You are able to prevent your organization's users from accessing unwanted websites by blocking URLs that fall in some sensitive categories (See Web Filtering for more details).
 
 Under __Categories__ is a list showing all available filtered categories. Check the box next to each category to enable blocking to every website that belongs to it.
 <!--
