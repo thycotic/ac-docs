@@ -1,7 +1,7 @@
 [title]: # (En-/Disable Applications)
 [tags]: # (thycotic access control)
 [priority]: # (4)
-# Enable/Disable Applications for Organization 
+# Enable/Disable Applications
 
 Requirements: The application must exists in the panel. If it does not exist, see [Add Application](index.md).
 

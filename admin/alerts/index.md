@@ -5,7 +5,7 @@
 
 ![alerts](images/alerts.png "Alert Settings")
 
-Access Control helps you stay alert when organization users perform actions that can lead to security issues. You can enable alerts based on the action you want to monitor and receive notifications through email or SMS when the alert condition is met.
+The Thycotic Access Controller helps you stay alert when your organization's users perform actions that can lead to security issues. You can enable alerts based on the action you want to monitor and receive notifications through email or SMS when the alert condition is met.
 
 Under __Control/Description__ column, you can check the alert condition and edit the available filters. Select the users that will be notified when the condition is met and specify the kind of notification they will receive (email, SMS or both). Remember to set the status switch to On to activate the alert. Finally, click on __Save changes__ button for changes to take effect.
 

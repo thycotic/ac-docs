@@ -3,7 +3,7 @@
 [priority]: # (1)
 # Activation
 
-Either after setup of your organization by the Thycotic team on the Thycotic Access Controller, you (the end user) will receive an email with credentials (username & password) to login into your user account for the first time. You will also receive a link for activating your newly created account. The email arrives from __Thycotic Cloud Access Support__.
+After your user account has been created by your organization's Access Controller System Administrator, you (the end user) will receive an email with credentials (username & password) to login into your user account for the first time. You will also receive a link for activating your newly created account. The email arrives from __Thycotic Cloud Access Support__.
 
 ![registration email](images/reg-email.png "Thycotic Access Controller registration email sample text")
 
