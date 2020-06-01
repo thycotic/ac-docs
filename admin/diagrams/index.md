@@ -3,6 +3,8 @@
 [priority]: # (20)
 # Access Controller: The AWS Architecture
 
+![aws](images/aws.png "Network diagram")
+
 ## Access Controller In The Cloud
 
 The goals of this report is to describe
