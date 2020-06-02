@@ -7,16 +7,6 @@
 
 ![aws](images/aws.png "Network diagram")
 
-## Access Controller In The Cloud
-
-The goals of this report is to describe
-
-1. the topology of Access Controller’s infrastructure in the Amazon Cloud that
-
-   * supports high availability
-   * can scale according to the incoming traffic
-1. the monitoring of the applications
-
 ## Breaking Down the Access Controller’s Services
 
 Access Controller is a collection of micro-services that interact together. Some are deployed on isolated hosts and some are clustered together. There are four (4) clusters of services:
