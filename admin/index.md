@@ -18,3 +18,4 @@ Topics:
 * [Reports](reports/index.md)
 * [Alerts](alerts/index.md)
 * [Settings](settings/index.md)
+* [Architecture and Diagrams](diagrams/index.md)
