@@ -23,11 +23,11 @@ After you are logged in, the home dashboard opens, showing default statistics fo
 
 ## User Registration - Browser/Mobile App
 
-With the login or user creating in the Access Controller portal, a Registration Code is emailed to the user. In case the registration code needs to be resent, 
+When a login or user is created in the Access Controller portal, a Registration Code is emailed to the user. If the registration code needs to be resent,
 
 1. Navigate to __User & Groups__.
 1. Select the user entry and click __Remind Reg. Code__.
 
    ![remind registration code](images/remind-reg-code.png "Trigger email with Registration code")
 
-The email will have links to the browser extension and mobile app stores to register the browser extension and also mobile device.
+The registration email will have links that guide the user to install the browser extension and the mobile app, allowing the user to register their browser and mobile device.

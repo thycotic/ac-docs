@@ -3,27 +3,27 @@
 [priority]: # (4)
 # Configuring an Application 
 
-Requirements: The application must exists on the panel and must be enabled. If not, refer to [Add Application](index.md) or [Enable/Disable Applications](enable-app.md) for more info.
+Requirements: The application must exist on the panel and be enabled. If not, refer to [Add Application](index.md) or [Enable/Disable Applications](enable-app.md) for instructions on how to add and enable applications.
 
-To access an application’s configuration page click on __Configure__ on the app’s tile. From this control panel you have access to core access control options such as Policies, Blocked Elements, Privileged URLs, etc.
+Click on __Configure__ on the app’s tile to access an application’s configuration page. From this control panel you have access to core access control options such as policies, blocked elements, privileged URLs, and monitoring.
 
 ![app configuration](images/cfg-app.png "Application configuration dashboard")
 
 ## Change Application Name
 
-You can edit or set a custom name for an application by clicking __Edit Application Name__, located at the top left of the main control panel.
+By clicking __Edit Application Name__ at the top left of the main control panel, you can edit or set a custom name for an application.
 
 ![custom application name](images/custom-app-name.png "Enter a custom application name")
 
 ## Show Password Reset History
 
-If you wish to track password reset history, click __View history__ in the middle of the page. From the displayed table, you can monitor every user that has been asked for a password reset, when this action occurred and was completed, as well as the current status of the reset process.
+To track password reset history, click __View history__ in the middle of the page. From the displayed table, you can monitor every user that has been asked for a password reset, view the status of the reset, track when the reset was ordered, and verify the time that it was completed.
 
 ![password reset history](images/pw-reset-history.png "View the password reset history")
 
 ## Request Alias URL
 
-If there is a web app that shares the same credentials with the application you are configuring but has a different URL, you can click __Request Alias__ and add this URL.
+Click __Request Alias__ to add a web application that shares credentials with the application that you are configuring but has a different URL. Enter the URL for the alias and click __request__.
 
 ![alias url request](images/alias-url.png "Enter the alias URL in form of a valid domain name")
 
@@ -31,9 +31,9 @@ If there is a web app that shares the same credentials with the application you 
 
 ### Schedule a Video Recording Session for a Web app
 
-The Thycotic Access Controller provides you with the ability to schedule recordings per web app and per user. This way an admin can record a specific web app for a specified period of time and one or more users.
+The Thycotic Access Controller provides you with the ability to schedule recordings per web app and per user. The admin can record the use of a specific web app for a set period of time and capture the actions of one or more users.
 
-You can schedule a session by clicking __Schedule recording sessions__ on the right hand side of the main panel and then choose the user and the time period you would like to monitor. Click __Add recording session__ for the session to be scheduled.
+To schedule a session, click __Schedule recording sessions__ on the right-hand side of the main panel and then choose the user and the time period you would like to monitor. Click __Add recording session__ for the session to be scheduled.
 
 ![schedule recording](images/setup-video.png "Setting up a video recording")
 
@@ -43,17 +43,17 @@ Click __View recorded sessions__ on the right hand side of the main panel. A lis
 <!--
 ![TODO](images/rec-table.png "Select from the recorded sessions table") -->
 
-You can either watch the video for a session by clicking on __play__ or download it in mpeg-4 format to your machine via __Download__ button.
+Click __Play__ to watch the recorded session, or click __Download__ to download the recording to your machine in mpeg-4 format.
 <!--
 ![TODO](images/recording.png "Watch or download a recorded session video") -->
 
-Recordings, which are running at the time, can be seen in the __Active Sessions__ tab. From there, you can watch the video recording up to that point, while in the background the recording continues.
+The __Active Sessions__ tab shows sessions that are currently active. From there, you can watch the video recording up to that point while the recording continues in the background.
 
 ## Set Policy for Application
 
-In order to be able to login to an application using Thycotic Access Control browser extension, you need to set a policy first.
+You will need to set a policy before using an application in the Thycotic Access Control browser extension.
 
-From the drop down menu that appears on the left side of the main panel, you can choose between a variety of policies such as None, Fingerprint (TouchID), Geofencing, and Georoximity & Geofencing. Remember to click __Update__ for changes to take effect.
+From the drop down menu that appears on the left side of the main panel, you can choose between a variety of policies such as None, Fingerprint (TouchID), Geofencing, and Georoximity & Geofencing. Click __Update__ to implement the new policy.
 
 ![set policy option](images/set-policy.png "Drop-down options to set a policy")
 
@@ -61,15 +61,15 @@ From the drop down menu that appears on the left side of the main panel, you can
 
 ## Set Password Reset Interval
 
-For every application, there is an option to reset all account passwords on a predefined interval. Click the respective drop-down menu and choose between Reset now, Daily and 30, 60 or 90 days.
+For every application, there is an option to reset all account passwords on a predefined interval. Click the Password reset interval drop-down menu and choose between Reset now, Daily, 30 days, 60 days or 90 days.
 
 ![reset password interval](images/set-pw-reset.png "Drop-down options to set a password reset interval")
 
-Remember to click __Update__ for changes to take effect.
+Click __Update__ for changes to take effect.
 
 ## Enable Mobile Browsing
 
-If you wish your users to be able to login to an application through their mobile devices, you need to have __Enable mobile browsing__ checked. Refer to [Mobile Device Registration](../getting-started/mobile.md).
+Checking __Enable mobile browsing__ will allow your users to login to an application through their mobile devices. Refer to [Mobile Device Registration](../getting-started/mobile.md).
 
 <!--
 Users will be able to perform the actions listed below in order to login successfully to the app.
@@ -96,15 +96,15 @@ User interaction example:
 -->
 ## Set Location Based Blocking
 
-If checked, organization users will be able to login only from a specific location, defined by their location during first login since this feature became enabled.
+Checking __Set Location Based Blocking__ restricts user log-ins to a specified location as determined by the user's location at the time this feature was first enabled.
 
 ## Allow Personal Accounts
 
-If checked, organization users will be able to mark an account as personal (i.e personal facebook account) and prevent organization administrators to perform a password reset on this specific account.
+Checking __Allow Personal Accounts__ will allow users to mark an account as personal (i.e personal facebook account) and prevent organization administrators from performing a password reset on the specified account.
 
 ## Set Password Policy
 
-As the organization administrator you are able to define the password policy of every user account for a particular application. Specifically, you can define password strength based on the following criteria:
+As the organization administrator, you are able to define the password policy of every user account for each application. You can define password strength based on the following criteria:
 
 * Password Length
 * Lowercase Letters
@@ -112,24 +112,25 @@ As the organization administrator you are able to define the password policy of 
 * Numbers
 * Symbols
 
-When you finish setting the password policy, application user accounts that do not comply to your settings will be displayed in a table.
+User accounts that do not comply with the new password policy will be displayed in a table when you have finished setting the parameters.
 
 ![none compliant users](images/non-comply.png "User accounts out of compliance with password policy")
 
 Select __Reset__ in the __Reset Password__ column in order for a custom-made password to be generated and assigned to the chosen account.
 
->**Note**: A process that checks for non-compliant user accounts runs in the background, checking accounts’ password strength and updates the list of non-compliant accounts.
+>**Note**: A background process checks users' password strength and updates the list of non-compliant accounts.
 
 ## Set Privileged URLs
 
-You are able to apply extra policies for different (application related) URLs in the __Privileged URLs__ section.
+ The __Privileged URLs__ section allows you to apply extra policies for different application related URLS.
 
 ![one](images/one-policy.png "Setting one policy for restricted URLs")
 
-Privileged URLs are grouped by policy. Default policy is __Restrict all__ which prevents users to access URLs listed in the text area on the left of the policy.
+Privileged URLs are grouped by policy. The default policy is __Restrict all__ which prevents users from accessing URLs listed in the text area on the left of the policy.
 
 * Αdd a new app related URL by typing the address in the policy related text area. You are free to add as many URLs as you want.
 * Add a new policy for a group of URLs by clicking the “Add new” button. You are free to add as many policies as you want.
+
 <!--
 ![TODO](images/multiple.png "Setting multiple policies for restricted URLs")-->
 
