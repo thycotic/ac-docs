@@ -24,17 +24,17 @@ This documentation provides an overview of how Thycotic's Access Controllers can
 
 ## Overview
 
-__Product__
+### Product
 
 Thycotic's Access Controller is a true PAM As A Service offering. Unlike other PAM products that sacrifice ease-of-use for security, Access Controller combines security and usability into one cohesive experience.
 
 Thycotic's Access Controller is a Privileged Access Management (PAM) Solution providing a powerful command center that allows you to control directory management, perform privilege management, specify multi-factor authentication policies, and control employee identities. The solution comes as a cloud based, all-in-one dashboard that gives IT, security, and compliance administrators complete control over login policies for websites, servers, and applications both inside and outside of the organization.
 
-__Implementation__
+### Implementation
 
 Thycotic's Access Controller allows your organization to implement login policies with incredible speed. The service affords you tight control of access to company resources without spending time and money on unnecessary developer effort and complicated API integration. Thycotic Access Control elevates the security posture for your organization. It saves time for your employees and removes the need for your administrators to respond to login-related inquiries.
 
-__Use__
+### Use
 
 Access Controllers are used by IT administrators and devops teams to manage employee logins, rights and access. The admins and teams can quickly increase the overall security of the team by managing and controlling login policies. The end users are employees of your organization spanning sales, marketing, HR, legal, and any other role that requires access to digital properties.
 
