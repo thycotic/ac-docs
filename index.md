@@ -3,42 +3,52 @@
 [priority]: # (1)
 # Introduction to Thycotic Access Control
 
-Thycotic's Access Control solution provides access management for
+Thycotic's Access Controllers are cloud-based SaaS security solutions that enable your organization to govern access to digital properties.
 
-- cloud platforms, via the __Cloud Access Controller__.
-- databases, via the __Database Access Controller__.
-- remote locations, via the __Remote Access Controller__.
+Thycotic offers:
 
-Basically cloud-based SaaS security solutions that give organizations the ability to control access across all their properties.
+- __Cloud Access Controller__ - for managing access to cloud platforms.
+- __Database Access Controller__ - for managing access to databases.
+- __Remote Access Controller__ - for managing access from remote locations.
 
-This documentation provides information pertaining to privilege managed access technology utilizing Thycotic's Access Controllers and how any of the access controller products can secure your infrastructure in specific areas and as an integrated multi-product solution.
+This documentation provides an overview of how Thycotic's Access Controllers can secure your infrastructure in specific areas or as an integrated multi-product solution.
 
-* Infrastructure Access Management - Makes sure that only employees get access to organizations´ Cloud Servers and Containers. With a zero software agent approach no server modifications are needed.
-* Dynamic Privilege Management - Helps organizations to easily specify which employee can access what on a website or server. Each action is risk scored using machine learning to detect and prevent threats. Policy setup is easy, flexible and no server or website changes are needed.
-* Activity Monitoring - Organizations can easily find out which servers, applications and websites employees are using, as well as have access to detailed reports on alerts and invalid actions. With employee session recording, time to compile forensic and compliance reports is considerably reduced.
-* License Management - Organizations can get detailed reports on how well their employees are utilizing money spent on cloud services and identify accounts that are not used. Organizations can reduce their threat risk profile and costs.
-* Invisible Identity Verification - Helps employees get access to what they need without putting up roadblocks. Two Factor Authentication can be a nuisance. There is no need for 8 digit code login and no hardware to carry. With multiple choices like Geofencing, Geoproximity, AirShake, and Touch ID, the access control solution conveniently merges security and usability.
-* User Management - With automatic password resets and LDAP/AD integration, the access control solution makes life easier by integrating with organization´s central directory to maintain a single source of truth. Templates help to automatically create user accounts for new employees and disable accounts for the ones that are no longer employed.
+## Key Features
+
+* __Infrastructure Access Management__ - Certifies that only employees get access to organizations´ Cloud Servers and Containers. With a zero software agent approach, no server modifications are needed.
+* __Dynamic Privilege Management__ - Allows your organization to easily specify what an individual employee can access on a specific website or server. Each action taken is risk-scored using machine learning to detect and prevent threats. Policy setup is easy, flexible and no server or website changes are needed.
+* __Activity Monitoring__ - Organizations can easily identify which servers, applications, and websites employees are using. They will then have access to detailed reports on alerts and invalid actions. With employee session recording, the time to compile forensic and compliance reports is considerably reduced.
+* __License Management__ - Organizations can get detailed reports on how well their employees are utilizing money spent on cloud services and identify accounts that are not used. Organizations can reduce their threat risk profile and costs.
+* __Invisible Identity Verification__ - Helps employees get access to needed resources without putting up roadblocks. Verification methods such as two factor authentication, 8 digit code logins, and hardware-based digital keys can be a time and money wasting nuisance. With multiple options like Geofencing, Geoproximity, AirShake, and Touch ID, the access control solution conveniently merges security and usability.
+* __User Management__ - With automatic password resets and LDAP/AD integration, the access control solution makes life easier by integrating with organization´s central directory to maintain a single source of truth. Templates help to automatically create user accounts for new employees and disable accounts for the ones that are no longer employed.
 
 ## Overview
 
-Thycotic's Access Controller is a Privileged Access Management (PAM) Solution, providing a single pane of glass from which to control directory management, perform privilege management, specify multi-factor authentication policies and control employee identities. The solution is a cloud based all in one dashboard that helps IT, Security, Compliance administrators get complete control over login policies for websites, servers and applications, inside and outside the organization.
+__Product__
 
-The Access Controller is unlike other PAM products - security should not come at the cost of ease of use, access control melds these both in one cohesive experience. Thycotic's Access Controller is a true PAM As A Service offering.
+Thycotic's Access Controller is a true PAM As A Service offering. Unlike other PAM products that sacrifice ease-of-use for security, Access Controller combines security and usability into one cohesive experience.
 
-How does it help an organization: Thycotic's Access Controller allows an organization to implement login policies quickly, in less than 5 minutes. The service allows the organization to tightly control access to company resources, without spending months on developer effort and complicated API integration. Thycotic Access Control elevates the security posture for an organization and helps users and admins save time, and stop responding to login related inquiries.
+Thycotic's Access Controller is a Privileged Access Management (PAM) Solution providing a powerful command center that allows you to control directory management, perform privilege management, specify multi-factor authentication policies, and control employee identities. The solution comes as a cloud based, all-in-one dashboard that gives IT, security, and compliance administrators complete control over login policies for websites, servers, and applications both inside and outside of the organization.
 
-Who is Thycotic's Access Controller meant for: It is meant to be used by IT admins, devops teams to manage employee logins, rights and access. The IT admins and devops teams manage and control login policies, and can quickly increase the overall security in the team. The end users are employees of the organization spanning sales, marketing, HR, Legal and other work functions.
+__Implementation__
 
-High Level Objectives of the product: 
+Thycotic's Access Controller allows your organization to implement login policies with incredible speed. The service affords you tight control of access to company resources without spending time and money on unnecessary developer effort and complicated API integration. Thycotic Access Control elevates the security posture for your organization. It saves time for your employees and removes the need for your administrators to respond to login-related inquiries.
 
-1. Allow admins to stop or reduce password use in the organization.
-1. Allow access to internal and 3rd party apps and websites to be tightly controlled.
-1. Allow infrastructure like servers, AWS instances and more to be part of the access control policies.
-1. Reduce user friction when employing Two Factor Authentication.
-1. Provide actionable alerts, robust reporting for all authentication related issues in the organization.
+__Use__
 
-Typical Workflow (for full product): An Admin of an organization is provisioned with an account at the Access Control panel. The admin visits a access control panel URL, and gets access to the dashboard for his organization. The dashboard allows the admin to view what applications are registered by the organization. The admin can also add applications by just specifying the login URL(s) for the 3rd party service. Then the admin can import a user database from an LDAP/AD store, excel sheets, CSV files. Each user gets an invitation via email about their participation in the program. Each user will be directed to download appropriate browser extensions and cell phone application.
+Access Controllers are used by IT administrators and devops teams to manage employee logins, rights and access. The admins and teams can quickly increase the overall security of the team by managing and controlling login policies. The end users are employees of your organization spanning sales, marketing, HR, legal, and any other role that requires access to digital properties.
+
+## High Level Objectives
+
+* Stop or reduce reliance on passwords.
+* Tightly control access to both internal and 3rd party apps and websites.
+* Apply access control policies to critical infrastructure like servers and AWS instances.
+* Reduce user friction when employing Two Factor Authentication.
+* Provide actionable alerts and robust reporting for all authentication-related issues.
+
+## Typical Workflow
+
+An Admin of an organization is provisioned with an account at the Access Control panel. The admin visits a access control panel URL, and gets access to the dashboard for his organization. The dashboard allows the admin to view what applications are registered by the organization. The admin can also add applications by just specifying the login URL(s) for the 3rd party service. Then the admin can import a user database from an LDAP/AD store, excel sheets, CSV files. Each user gets an invitation via email about their participation in the program. Each user will be directed to download appropriate browser extensions and cell phone application.
 
 When an end user, employee of the organization visits a website for the first time after the Access Controller browser extension installation, they are asked for the username and password by the browser extension and when received as input from the user, are stored and transmitted to the cloud backend. When the user needs to be logged into the site, the cloud backend retrieves the decrypted information from the vault and provides credentials to the website in question in an automated manner. This helps simplify the login experience for end users and removes the burden of password management. The Thycotic Access Controller allows the admins to specify rules and policies for login access, such as: geo fencing, geo proximity, TouchID and more. This allows for a low friction Two Factor Authentication (2FA) as opposed to high user friction techniques as OTP, carrying hardware and others. Thycotic Access Control makes 2FA near invisible.
 
