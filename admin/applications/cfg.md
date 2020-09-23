@@ -3,21 +3,21 @@
 [priority]: # (4)
 # Configuring an Application 
 
-Requirements: The application must exist on the panel and be enabled. If not, refer to [Add Application](index.md) or [Enable/Disable Applications](enable-app.md) for instructions on how to add and enable applications.
+To configure an application, it must exist on the panel __and__ be enabled. If the application needs to be added or enabled, refer to [Add Application](index.md) or [Enable/Disable Applications](enable-app.md).
 
-Click on __Configure__ on the app’s tile to access an application’s configuration page. From this control panel you have access to core access control options such as policies, blocked elements, privileged URLs, and monitoring.
+Click __Configure__ on the app’s tile to access an application’s configuration page. From this control panel you have access to core access control options such as policies, blocked elements, privileged URLs, and monitoring.
 
 ![app configuration](images/cfg-app.png "Application configuration dashboard")
 
 ## Change Application Name
 
-By clicking __Edit Application Name__ at the top left of the main control panel, you can edit or set a custom name for an application.
+Click __Edit Application Name__ at the top left of the main control panel to edit or set a custom name for an application.
 
 ![custom application name](images/custom-app-name.png "Enter a custom application name")
 
 ## Show Password Reset History
 
-To track password reset history, click __View history__ in the middle of the page. From the displayed table, you can monitor every user that has been asked for a password reset, view the status of the reset, track when the reset was ordered, and verify the time that it was completed.
+Click __View history__ in the center of the page to track password reset history. From the displayed table, you can monitor every user that has been asked for a password reset, view the status of the reset, track when the reset was ordered, and verify the time that it was completed.
 
 ![password reset history](images/pw-reset-history.png "View the password reset history")
 

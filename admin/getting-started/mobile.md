@@ -43,7 +43,7 @@ After you have successfully registered your user account, every login to the Acc
 1. On your mobile device, open the Thycotic Access Controller application. The app displays a pending login attempt:
 
    ![pending](images/pending.png "Pending login attempt")
-1. Click __Authenticate to...__.
+1. Click __Authenticate to...__
 1. Either use your Fingerprint or a PIN to authenticate the login. We will use a PIN for this example.
 
    ![pin](images/auth-pending.png "Authentication method prompt")
@@ -54,7 +54,7 @@ After you have successfully registered your user account, every login to the Acc
 
 ## Mobile App Settings
 
-The mobile app also lets you change your PIN, unregister, and browse the applications that are setup in your company's profile.
+The mobile app also lets you change your PIN, unregister, and browse the applications that are setup in your organization's profile.
 
 ### Change your PIN
 
@@ -72,6 +72,6 @@ To unregister your device, select the __gear__ in the top right corner and navig
 
 ### In-app Browsing
 
-You can navigate to a list of applications that are registered through your company's panel. Select the application and associated account to login. Once authenticated, you can browse the application from inside the Access Controller mobile app.
+You can navigate to a list of applications that are registered through your organization's panel. Select the application and associated account to login. Once authenticated, you can browse the application from inside the Access Controller mobile app.
 
 ![in-app browsing](images/apps-list.png "List of applications available for in-app browsing")
