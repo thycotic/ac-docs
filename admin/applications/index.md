@@ -3,7 +3,7 @@
 [priority]: # (3)
 # Applications
 
-Under Applications, you find the applications that have been made available in your organization's portal. Use the applications area to add, configure, and remove applications.
+The Applications page shows the applications available in your organization's portal. Use the applications page to add, configure, and remove applications.
 
 ![applications home](images/applications.png "Applications home page")
 

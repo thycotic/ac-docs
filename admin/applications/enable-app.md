@@ -3,12 +3,12 @@
 [priority]: # (4)
 # Enable/Disable Applications
 
-Requirements: The application must exists in the panel. If it does not exist, see [Add Application](index.md).
+Requirements: The application must exist in the panel. See [Add Application](index.md) to add new applications.
 
 To setup the applications for your users,
 
 1. Select __Applications__ from the left menu.
-1. Under each listed application slide the on/off switch to enable or disable the application respectively.
+1. Slide the on/off switch to enable or disable the chosen application.
 
    ![on/off switch](images/on-off.png "Enabling/Disabling applications via on/off switch")
 

@@ -29,7 +29,7 @@ Click __Request Alias__ to add a web application that shares credentials with th
 
 ## Video Recording
 
-### Schedule a Video Recording Session for a Web app
+### Schedule a Video Recording Session
 
 The Thycotic Access Controller provides you with the ability to schedule recordings per web app and per user. The admin can record the use of a specific web app for a set period of time and capture the actions of one or more users.
 
@@ -138,52 +138,51 @@ Remember to __Save changes__ for changes to take effect.
 
 ## View/Remove Blocked Elements
 
-In the __Blocked Elements__ section you can review every element of an application’s page that might have been blocked through the administrator browser extension.
+The __Blocked Elements__ section shows application elements that have been blocked by the administrator using the browser extension.
 <!-- 
 ![TODO](images/blocked.png "Viewing blocked elements") -->
 
-An administrator can block(protect) three type of elements:
+An administrator can block/disable three type of elements:
 
-* Clickable elements such as buttons and links
+* Clickable objects (buttons/links)
 * Text
 * Forms
 
->**Note**: Details regarding browser extension features are covered in [Browser Extensions](../getting-started/be.md) section.
+>**Note**: Further browser extension features are covered in the [Browser Extensions](../getting-started/be.md) section.
 
-Both element type and code are displayed for better understanding and monitoring. If you wish to terminate blocking in specific element, just click __Remove element__.  
+The blocked element's type and code are displayed. Click __Remove element__ to stop blocking a specific element.
 
 ### View Defined Groups
 
-Requirements: You need to have groups created in order to view anything in this section. Refer to [Create Groups](../groups/index.md) for more information.
+__Note__: You must have previously created groups to use this feature. Go to [Create Groups](../groups/index.md) for help creating groups.
 
-The __Defined groups__ section consists of a list of every group that has been created by the administrator and group users have access to the application you are configuring. The group system conforms to parent-child hierarchy. The left column lists the name of each group and right column the name of its parent group.
+The __Defined groups__ section shows a list of user groups that have access to the application you are configuring. The group system conforms to parent-child hierarchy. The left column lists the name of each group and right column shows the name of its parent group.
 
 ![defined groups](images/groups.png "Viewing the defined groups table")
 
 ## Registered Users for Application
 
-Requirements: The access controller browser extension must be used to log in to an app at least once (by a user) for information to be displayed. To see how extension works see the [browser extension topic](../getting-started/be.md).
+__Requirements__: A user must log in using the access controller browser extension at least once before this information is displayed. To see how extension works see the [browser extension topic](../getting-started/be.md).
 
-Lists stored user credentials and password information for this application (Figure 2.14).
+The registered users tab displays stored user credentials along with password information for the application.
 
 ![registered app users](images/reg-apps.png "Registered Application users table")
 
-Password reset interval default setting for each account is the one set for the entire application. However, you have the option to set custom intervals for an account. You can choose between Never, 30, 60 or 90 days. Remember to click “Save changes” button for changes to take effect.
+The password reset interval for each user defaults to the Password Policy you have selected. To set custom intervals for an account, click the circle for Never, 30, 60 or 90 days. Click __Save changes__ for the new reset policy to take effect.
 
 ### Reset Password
 
-If you wish to reset a password for an account, check __Reset now__ for the required account (credential username) and then click __Save changes__. The password reset server will handle the request and a Thycotic admin will be notified to complete this action.
+Check __Reset now__ next to a username to reset the password for their account. Click __Save changes__ to proceed with the reset. The password reset server will handle the request and a Thycotic admin will be notified to complete this action.
 
->**Important**: This feature is available only for Cloud Service. On-prem installations require special configuration. Offline installations don’t support password reset.
+>**Important**: This feature is available only for Cloud Service. On-prem installations require special configuration. Offline installations do not support password reset.
 
 ### Share Account Credentials
 
-Click on __Share__ next to credential username, to share user credentials with other organization users.
+Click on __Share__ next to credential username to share user credentials with other organization users.
 
-From the pop-up drop-down, select the time period that credentials will remain shared among selected users. You can choose between Forever, 6, 12, 24 and 48 hours or set a custom window.
+From the pop-up drop-down, select the time period that credentials will remain shared among selected users. You can choose between Forever, 6, 12, 24 and 48 hours, or set a custom window.
 
-In order to select users to share credentials with, choose the desired ones from the list of __Available users__ and click __Add selected__. Follow the opposite procedure to remove users from the __Shared with users__ list.
-When you are done, click __Update__ for changes to take effect.
+Choose the users to share credentials with from the list of __Available users__ and click __Add selected__. Follow the opposite procedure to remove users from the __Shared with users__ list. Click __Update__ for changes to take effect.
 
 ![shared credentials](images/share-creds.png "Share user credentials")
 
