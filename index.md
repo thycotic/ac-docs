@@ -11,7 +11,7 @@ Thycotic offers:
 - __Database Access Controller__ - for managing access to databases.
 - __Remote Access Controller__ - for managing access from remote locations.
 
-This documentation provides an overview of how Thycotic's Access Controllers can secure your infrastructure in specific areas or as an integrated multi-product solution.
+This documentation provides an overview of how Thycotic's Access Controllers can secure your infrastructure either in specific areas or as an integrated multi-product solution.
 
 ## Key Features
 
@@ -49,7 +49,7 @@ Access Controllers are used by IT administrators and devops teams to manage empl
 ## Typical Workflow
 
 ### Administrator Set-Up
-An administrator of your organization is provisioned with an account at the Access Control panel. The admin visits the access control panel URL and gains access to your organization's Access Controller Dashboard. The dashboard allows the admin to view the applications that are registered by the organization. The admin can also add applications by simply specifying the login URL(s) for the 3rd party service. The admin then imports a user database from an LDAP/AD store, excel sheet, or CSV file.
+An administrator of your organization is provisioned with an account. The admin then visits the Access Control panel URL and gains access to your organization's Access Controller Dashboard. The dashboard allows the admin to view the applications that are registered by the organization. The admin can also add applications by simply specifying the login URL(s) for the 3rd party service. The admin then imports a user database from an LDAP/AD store, excel sheet, or CSV file.
 
 The admin then specifies rules and policies for login access. Options include: geo fencing, geo proximity, and TouchID. This allows for low friction, nearly invisible Two Factor Authentication (2FA) free from the inconvenience of traditional roadblocks.
 
@@ -59,4 +59,4 @@ Each user gets an invitation to participate in the program via email. Once accep
 ### Admin-User Experience
 The Thycotic Access Controller __never__ stores credentials on local machines, thereby eliminating the risk of key-logging attacks. The access controller only transfers encrypted credentials to the user’s browser. The Thycotic Access Controller gives fine-grained access for privilege management on websites that users visit. The access controller also protects SSH and RDP access to server pools by providing transparent SSH and RDP proxies to check for user-server policies and enforce them. If the policy is satisfied using invisible 2FA, the SSH or RDP connection is allowed.
 
-If an employee's machine is compromised, a traditional password manager will give a malicious actor access to your organization's digital properties. The Thycotic Access Control solution implements mandatory, unobtrusive, and secure 2FA to prevent these threats. Further, the Thycotic Access Controller allows admins to set intervals for refreshing website passwords.
+If an employee's machine is compromised, a traditional password manager will give a malicious actor access to your organization's digital properties. The Thycotic Access Control solution implements mandatory, unobtrusive, and secure 2FA to prevent these threats. For further security, the Thycotic Access Controller allows admins to set intervals for refreshing website passwords.
