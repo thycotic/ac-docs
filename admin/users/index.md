@@ -7,25 +7,28 @@
 
 ![users](images/users.png "Users table")
 
-The Users’ table contains every user that belongs to the selected organization.
+The Users table shows the users that belong to your organization.
 
-For each user you can view basic information such as his username, his personal info (firstname, lastname, etc), the role assigned to him and the group he belongs to. In addition, there is an indicator in the __Installation Step__ column that shows which part of the installation process has been completed by the user. This feature can be useful for the admin to monitor how users are going with the process and step in when believes it’s necessary.
+For each user you can view basic information such as username, first & last name, role, and group. The __Installation Step__ column shows which part of the installation process has been completed by the user. The __Installation Step__ indicator allows you to track user progress and decide if the user needs further assistance.
 
-Besides displaying user information, there are some core actions available to the administrator, as explained below.
+The __User Table__ is also used to manage and change user accounts.
 
 ## Create User
 
-If you wish to create a new user click __Add User__ at the top right hand corner of the main panel. From the popup window that comes up, fill in the displayed fields with the user’s information such as firstname, lastname, address etc. Then, select a role you want to be assigned to and the group that will belong to. Finally, click __Create User__ for changes to take effect.
+To create a user
 
->**Caution**: If you assign the role __Admin__ to a user, he will be able to login to the Access Control panel administration.
+1. At the top right hand corner of the main panel, click __Add User__.
+2. From the popup window, enter the user’s information into the displayed fields.
+3. Select the role and group that you want the user to be assigned.
+4. Click __Create User__ for the changes to take effect.
 
-Also, any manual user additions or deletions could cause inconsistencies if your organization has an LDAP service running.
+>**Caution**: Assigning the __Admin__ role to a user will allow them to login and change settings in the Access Control panel. Additionally, any manual user additions or deletions could cause inconsistencies if your organization has an LDAP service running.
 
 ![ldap warning](images/ldap-warning.png "LDAP inconsistency warning for manual user maintenance")
 
 ### Share User Credentials
 
-You can share a user’s credentials by clicking the __share__ icon under user’s username.
+Share a user’s credentials by clicking the __share__ icon under user’s username.
 
 ![share](images/share-user.png "Share user icon") - ![share](images/share-user-2.png "Share modal")
 
@@ -33,13 +36,13 @@ For more info refer to [Share account credentials in the Applications](../applic
 
 ### Handle User Access Requests
 
-A user might not have the permissions to access certain URLs or Elements that are blocked by the group he belongs to. Refer to [Set Privileged URLs & View/Remove Blocked Elements](../applications/cfg.md#set_privileged_urls). However, he is able to request access to some restricted elements through the browser extension.
+A user might not have the permissions to access certain URLs or Elements that are blocked by the group they belong to. Refer to [Set Privileged URLs & View/Remove Blocked Elements](../applications/cfg.md#set_privileged_urls). However, they can request access to some restricted elements through the browser extension.
 
-These requests can be displayed by clicking the info button under the user’s username. From the popup window that comes up, you can review the request and inform the user if his access was granted or rejected.
+These requests can be displayed by clicking __info__ under the user’s username. From the popup window that comes up, you can review the request and inform the user if his access was granted or rejected.
 
 ![access req](images/access-req.png "User access requests")
 
->**Important**: If you decide to grant access for an element (or URL) to a user, you have to do this manually by adding the user to a group that already has access to the specific element. For example, user A belongs to group G that restricts access to an element E. User A requests access to E. Organization admin can either create a new group that allows access to this element (See Create Organization Group for more info) or add user A to a group H that already have access to element E. 
+>**Important**: If you decide to grant access for an element (or URL) to a user, you have to do this manually by adding the user to a group that already has access to the specific element. For example, user A belongs to group G that restricts access to an element E. User A requests access to E. Organization admin can either create a new group that allows access to this element (See Create Organization Group for more info) or add user A to a group H that already have access to element E.
 
 ### Edit User
 
