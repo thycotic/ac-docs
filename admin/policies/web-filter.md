@@ -30,7 +30,7 @@ The __Categories__ list shows all available filtered categories. Check the box n
 
 ### Add Organization Exception URL
 
-To whitelist a website on the default blocked URLs, Click on __Exceptions__ on the bottom right corner of the main panel. Select the filtered category that the desired URL belongs to.
+To remove a website from the list of default blocked URLs, Click on __Exceptions__ on the bottom right corner of the main panel. Select the filtered category that the desired URL belongs to.
 <!--
 ![TODO](images/new-url-ex.png "Add exception URL") -->
 

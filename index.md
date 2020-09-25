@@ -26,9 +26,9 @@ This documentation provides an overview of how Thycotic's Access Controllers can
 
 ### Product
 
-Thycotic's Access Controller is a true PAM As A Service offering. Unlike other PAM products that sacrifice ease-of-use for security, Access Controller combines security and usability into one cohesive experience.
+Thycotic's Access Controller is a true Privileged Access Management (PAM) as a Service offering. Unlike other PAM products that sacrifice ease-of-use for security, Access Controller combines security and usability into one cohesive experience.
 
-Thycotic's Access Controller is a Privileged Access Management (PAM) Solution providing a powerful command center that allows you to control directory management, perform privilege management, specify multi-factor authentication policies, and control employee identities. The solution comes as a cloud based, all-in-one dashboard that gives IT, security, and compliance administrators complete control over login policies for websites, servers, and applications both inside and outside of the organization.
+Thycotic's Access Controller is a PAM Solution providing a powerful command center that allows you to control directory management, perform privilege management, specify multi-factor authentication policies, and control employee identities. The solution comes as a cloud based, all-in-one dashboard that gives IT, security, and compliance administrators complete control over login policies for websites, servers, and applications both inside and outside of the organization.
 
 ### Implementation
 

@@ -14,7 +14,7 @@ After installing the OnionID (Thycotic Access Controller) Application from your 
 
    ![reg code mobile](images/mobile-reg-code.png "Mobile app prompting for registration code")
 
-   Use the registration code that was emailed to you. It is the same code that you used for browser extension registration.
+   Use the registration code that was emailed to you. It is the same code that you used for the browser extension registration.
 
    Click __Submit__.
 1. The application prompts you to choose a 4-digit PIN. The PIN is used if TouchID/Fingerprint is not available or is not working.

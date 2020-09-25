@@ -14,12 +14,13 @@ For each user you can view basic information such as username, first & last name
 The __User Table__ is also used to manage and change user accounts.
 
 ## Create User
+
 To create a user
 
-* At the top right hand corner of the main panel, click __Add User__.
-* From the popup window, enter the user’s information into the displayed fields.
-* Select the role and group that you want the user to be assigned.
-* Click __Create User__ for the changes to take effect.
+1. At the top right hand corner of the main panel, click __Add User__.
+2. From the popup window, enter the user’s information into the displayed fields.
+3. Select the role and group that you want the user to be assigned.
+4. Click __Create User__ for the changes to take effect.
 
 >**Caution**: Assigning the __Admin__ role to a user will allow them to login and change settings in the Access Control panel. Additionally, any manual user additions or deletions could cause inconsistencies if your organization has an LDAP service running.
 
@@ -37,11 +38,11 @@ For more info refer to [Share account credentials in the Applications](../applic
 
 A user might not have the permissions to access certain URLs or Elements that are blocked by the group they belong to. Refer to [Set Privileged URLs & View/Remove Blocked Elements](../applications/cfg.md#set_privileged_urls). However, they can request access to some restricted elements through the browser extension.
 
-These requests can be displayed by clicking the __info__ button under the user’s username. From the popup window that comes up, you can review the request and inform the user if his access was granted or rejected.
+These requests can be displayed by clicking __info__ under the user’s username. From the popup window that comes up, you can review the request and inform the user if his access was granted or rejected.
 
 ![access req](images/access-req.png "User access requests")
 
->**Important**: If you decide to grant access for an element (or URL) to a user, you have to do this manually by adding the user to a group that already has access to the specific element. For example, user A belongs to group G that restricts access to an element E. User A requests access to E. Organization admin can either create a new group that allows access to this element (See Create Organization Group for more info) or add user A to a group H that already have access to element E. 
+>**Important**: If you decide to grant access for an element (or URL) to a user, you have to do this manually by adding the user to a group that already has access to the specific element. For example, user A belongs to group G that restricts access to an element E. User A requests access to E. Organization admin can either create a new group that allows access to this element (See Create Organization Group for more info) or add user A to a group H that already have access to element E.
 
 ### Edit User
 
