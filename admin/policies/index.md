@@ -7,7 +7,7 @@
 
 ![policy details](images/app-pol.png "Application Policies details")
 
-Thycotic Access Control supports six authentication methods:
+Thycotic Access Control supports six authentication methods
 
 * Fingerprint (TouchID): Authenticates users by their fingerprint (applies only to iPhones 5S and later).
 * AirShake: Establishes the presence of the user by requiring users to shake their phone.
@@ -16,7 +16,7 @@ Thycotic Access Control supports six authentication methods:
 * MasterPass: Requires that users provide a password to their browser extension.
 * YubiKey: A YubiKey is a small USB device that offers 2FA by generating one-time passwords.
 
-A Policy consists of:
+A Policy consists of
 
 * Affected Apps and Servers - List of apps and servers that have this policy enabled.
 * An Authentication Technique - Combination of up to three authentication methods.
@@ -33,23 +33,21 @@ By clicking __Details__ assigned to each policy under the Apps, Users, or Server
 
 Every organization has default policies available, Fingerprint (TouchID), Geofencing, and Geoproximity & Geofencing.
 
-To create a new policy:
+To create a new policy
 
-1. Click __Add New Policy__ in the top right corner of the main panel.
+1. In the top right corner of the main panel, click __Add New Policy__ .
 
    ![new policy](images/add-new-pol.png "Add a new policy")
-1. On the __Add new policy__ modal:
+1. On the __Add new policy__ modal
 
    * Enter the new policy name.
    * Select any application or server that will be affected by this policy. You can leave these two fields blank and set the application policy later from the applications’ configuration panel. Refer to [Set Policy for Application](../applications/cfg.md#set_policy_for_application) for instructions.
 
 >**Note**: You must set an Authentication Technique for the new policy. Click on the dropdown menus and select at least three desired methods for this policy.
 
-Use the scroll bar to scroll through the whole __Add New Policy__ modal and set any other configurations you may require.
-
 ### Enable Fallback to Master Password
 
-If __Enable Fallback__ is selected, an employee who cannot use their phone to prove their identity and satisfy the policy requirements will be given the option to enter a master password. The employee chooses their master password during the initial registration process. The employee can change it at any time to a different value.
+If __Enable Fallback__ is selected, an employee who cannot use their phone to prove their identity and satisfy the policy requirements will be given the option to enter a master password. The employee chooses their master password during the initial registration process. The employee can change their password at any time.
 
 ### Enable Auto-login for Specific IP Addresses
 

@@ -1,7 +1,7 @@
 [title]: # (Introduction)
 [tags]: # (thycotic access control)
 [priority]: # (1)
-# Introduction to Thycotic Access Control
+# Introduction to Thycotic Access Controller
 
 Thycotic's Access Controllers are cloud-based SaaS security solutions that enable your organization to govern access to digital properties.
 
