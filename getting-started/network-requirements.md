@@ -6,11 +6,11 @@
 
 The chart below shows standard ports for specific functions in Remote Access Controller, Cloud Access Controller, and Database Access Controller. **These ports need to be available inbound to the corporate network from wherever Access Controller is deployed.** Non-standard ports for specific functions such as RDP and SSH can be configured in Remote Access Controller. 
 
-If you are using the Thycotic-hosted Access Controller deployment, **Thycotic suggests limiting inbound traffic to the below protocols using the Access Controller Suite IP address space applicable to your region.** Please reach out to your Thycotic account representative to obtain the relevant IP addresses for your region.
+If you are using the Thycotic-hosted Access Controller deployment, **Thycotic suggests limiting inbound traffic to the protocols below  using the Access Controller Suite IP address space applicable to your region.** Please reach out to your Thycotic account representative to obtain the relevant IP addresses for your region.
 
 ## Required Ports
 
-> **Note:** Thycotic has created a set of PowerShell scripts that can be run on any Windows server and will open the necessary ports listed below.  Please see the Windows Server Preparation section to obtain the scripts and to learn more about adding Windows servers to Remote Access Controller.
+> **Note:** Thycotic has created a set of PowerShell scripts that can be run on any Windows server and will open the necessary ports listed below. Please see the [Windows Server Preparation](../admin/servers/index.md) section to obtain the scripts and to learn more about adding Windows servers to Remote Access Controller.
 
 |    Item    |    Traffic    |    Port(s)    |    Direction    |
 |---|---|---|---|
