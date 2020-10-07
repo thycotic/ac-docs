@@ -1,6 +1,6 @@
-[title]: # (Getting Started)
+[title]: # (Activation)
 [tags]: # (thycotic access control)
-[priority]: # (2)
+[priority]: # (3)
 
 # Activation
 

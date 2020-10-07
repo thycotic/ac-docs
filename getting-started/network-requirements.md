@@ -1,6 +1,6 @@
 [title]: # (Network Requirements)
 [tags]: # (thycotic access control)
-[priority]: # (3)
+[priority]: # (2)
 
 # Network Requirements
 
