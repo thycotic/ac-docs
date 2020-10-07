@@ -1,6 +1,6 @@
 [title]: # (Browser Extensions)
 [tags]: # (thycotic access control)
-[priority]: # (2)
+[priority]: # (4)
 # Browser Extension
 
 Use the link from your _Thycotic Access Controller Initial Set Up_ email and visit your default browser's extension store to install the Thycotic Access Controller browser extension, shown here for Chrome:

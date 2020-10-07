@@ -1,6 +1,6 @@
 [title]: # (Mobile Registration)
 [tags]: # (registration)
-[priority]: # (3)
+[priority]: # (5)
 # Mobile Device Registration
 
 After a successful [Browser Extension](be.md) installation and registration, follow the link in your registration email, to download the OnionID (Thycotic Access Controller) Application.

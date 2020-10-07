@@ -3,27 +3,30 @@
 [priority]: # (6)
 # Create Group
 
-Thycotic Access Control categorizes users into groups based on the available applications and the level of access. Hence, you will probably need to create multiple user groups with certain settings. To do so, click on the __Add Group__ button located at the top right hand corner of the main panel.
+Use Groups to assign identical permissions to multiple users. Users in a Group share applications and privileges. 
+
+To create a Group
+1. Click **Add Group** in the top right-hand corner of the main panel.
 
 ![new Group](images/new-group.png "Add new group")
 
-Enter a name for the new group and select its parent group. Remember that groups in the access controller are formatted in a parent - child tree structure.
-
-Then, from the left column, select the applications you want to be available to the group users. Click __Add selected__ and the selected applications will be displayed under __Active applications__ section. Follow the opposite procedure to remove an application from the active applications list. By default, every group has a list of restricted URLs and blocked elements. During group creation, you are able to select any URLs or elements from the corresponding section and add them to the allowed URLs or unblocked elements section respectively. Finally, click __Create__ for changes to take effect.
-
-You are able to edit group settings later as well.
+1. Enter a name for the new group and select its parent group. Groups in AC are formatted in a parent-child tree structure.
+1. From the left column, select the applications you want to be available to the group users. Click __Add selected__ and the selected applications will be displayed under __Active applications__ section. To remove an application, click the application and then click **Remove Selected**.
+1. By default, every group has a list of restricted URLs. To allow restricted URLs, click the URLs and then click **Add Selected**. The URLs move to **Allowed Privileged URLs** and users within the Group can access the URLs. You can hold **Ctrl** on your keyboard to select multiple URLs at once.
+1. Every group also has a list of default **Blocked Elements**. To unblock elements, click the elements and then click **Add Selected**. The elements move to the **Unblocked Elements** list. You can hold **Ctrl** on your keyboard to select multiple elements at once.
+1. Click **Create** to add the new Group.
 
 >**Caution**: If an LDAP service is running, this may create inconsistencies in the current organization schema.
 
 ## Set Global Options
 
-In order to set global Access Control options, click __Global Options__ located at the top right corner of the main panel.
+To set global Access Control options, click __Global Options__ in the top right corner of the main panel.
 
 ![global](images/global-op.png "Global options")
 
 ### Set Master Password
 
-If enalbed, Access Controller users can login to organization applications through the Browser Extension (BE). During BE installation they are requested to enter a personal master password for extra security and for using it when basic authentication policy fails (See Enable fallback to master password for more info).
+If enabled, Access Controller users can login to organization applications through the Browser Extension (BE). During BE installation they are prompted to enter a personal master password for extra security and for use when basic authentication policy fails (See Enable fallback to master password for more info).
 
 You are able to set a global master password for every organization user by checking the box and entering the desired password in the text fields below .
 
