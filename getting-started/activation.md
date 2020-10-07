@@ -1,6 +1,7 @@
-[title]: # (Activation)
+[title]: # (Getting Started)
 [tags]: # (thycotic access control)
 [priority]: # (2)
+
 # Activation
 
 After the setup of your organization by the Thycotic team on the Thycotic Access Controller, you (the administrator) will receive an email with credentials (username & password) to login to your admin account. You will also receive a link for activating your newly created account. The email arrives from __Thycotic Cloud Access Support__.

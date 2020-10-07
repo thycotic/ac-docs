@@ -36,7 +36,7 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 
 ## Windows Server Preparation
 
-To make onboarding of Windows server to Remote Access Controller simple – Thycotic provides these PowerShell scripts to run on the local machine targeted for onboarding.
+To make onboarding of Windows server to Remote Access Controller simple, Thycotic provides these PowerShell scripts to run on the local machine targeted for onboarding.
 
 ### Windows Server (Non-domain Joined)
 
