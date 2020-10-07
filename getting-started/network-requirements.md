@@ -15,16 +15,18 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 |    Item    |    Traffic    |    Port(s)    |    Direction    |
 |---|---|---|---|
 | Directory Synchronization | LDAP | 389 - TCP | Inbound|
-||LDAP(S)| 636 - TCP | 
+||LDAP(S)| 636 - TCP | Inbound |
 |Linux (Remote Access Controller) | SSH | 22 - TCP | Inbound
 | Windows (Remote Access Controller) | WMI | 22 - TCP | Inbound |
-||SMB| 445 - TCP/UDP||
-||RDP| 3389 - TCP/UDP||
-||WinRM| 5985 - TCP||
-||ALL ICMP - PIv4 Ports| N/A||
+||SMB| 445 - TCP/UDP|Inbound|
+||RDP| 3389 - TCP/UDP|Inbound|
+||WinRM| 5985 - TCP|Inbound|
+||ALL ICMP - PIv4 Ports| N/A|Inbound|
 |Web Applications (Cloud Access Controller)|TCP|Varies by Web Application (Commonly 443, 8443, etc)|Inbound|
 |Databases (Database Access Controller)|TCP|Varies by Database|Inbound|
 |Access Controller Browser Extension|TCP|4443 - TCP|Outbound|
+
+<br>
 
 ## Account Permission Requirement
 |Item|Permissions|
@@ -33,6 +35,8 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 |Linux|Sudo Privileges|
 |Database|Any|
 |Web Application|Any|
+
+<br>
 
 ## Windows Server Preparation
 
