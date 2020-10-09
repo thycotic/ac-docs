@@ -6,7 +6,7 @@
 
 To add an application
 
-1. From the left menu, select __Applications__ and click **Manage**.
+1. From the left menu, select __Applications__.
 
 ![applications-nav](images/applications-nav.png)
 
