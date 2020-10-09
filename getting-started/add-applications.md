@@ -6,7 +6,10 @@
 
 To add an application
 
-1. From the left menu, select __Applications__ .
+1. From the left menu, select __Applications__ and click **Manage**.
+
+![applications-nav](images/applications-nav.png)
+
 1. Click __Add Application__.
 
    ![add app](../admin/applications/images/new-app.png "New Application modal")

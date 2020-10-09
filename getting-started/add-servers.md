@@ -4,11 +4,17 @@
 
 # Add Server
 
-To add a new server, click on the __Add Server__ button on the top of the main panel. In the pop-up window that comes up, you have to enter information regarding the server you are adding.
+To add a new server
+
+* Click **Servers** on the left-hand menu and click **Manage**
+
+![servers](images/servers-nav.png)
+
+* Click __Add Server__ on the top of the main panel. The **Add a New Server** window appears.
 
 ![add server](../admin/servers/images/add-server.png "Add a Server")
 
-Most server specifications are set via drop-down menu, for example Type and OS.
+* Use the drop-down menus to configure the new server.
 
 ## Windows Server
 
