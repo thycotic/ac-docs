@@ -1,6 +1,6 @@
 [title]: # (Add Applications)
 [tags]: # (thycotic access control)
-[priority]: # (7)
+[priority]: # (8)
 
 ## Add Applications
 
