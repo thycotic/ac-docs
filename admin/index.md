@@ -7,7 +7,7 @@ This manual is intended for use by administrators who will manage Thycotic's Acc
 
 ## Topics:
 
-* [Activation](getting-started/index.md)
+* [Activation](../getting-started/index.md)
 * [Applications](applications/index.md)
 * [Policies](policies/index.md)
 * [Users & Groups](users/index.md)
