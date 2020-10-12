@@ -6,7 +6,7 @@
 
 To create Users and Groups, use the left-hand navigation menu to click **User & Groups** and then click **Manage**. You will see the **User Table**.
 
-![usersnav](images/user-nav.png "Navigation Menu")
+![usersnav](images/user-nav.png "Users Nav")
 
 ## Add Users
 

@@ -8,7 +8,7 @@ To add a new server
 
 * Click **Servers** on the left-hand menu and click **Manage**
 
-![servers](images/servers-nav.png)
+![servers](images/servers-nav.png "Servers Nav")
 
 * Click __Add Server__ on the top of the main panel. The **Add a New Server** window appears.
 

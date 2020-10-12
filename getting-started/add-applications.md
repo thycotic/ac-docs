@@ -2,13 +2,17 @@
 [tags]: # (thycotic access control)
 [priority]: # (8)
 
+# Add and Configure Applications
+
+Access Controller has pre-configured applications that can be configured for your organization. To configure the default applications, see [Configure Applications](../admin/applications/cfg.md).
+
 ## Add Applications
 
 To add an application
 
 1. From the left menu, select __Applications__.
 
-![applications-nav](images/applications-nav.png)
+![applications-nav](images/applications-nav.png "Applications Nav")
 
 1. Click __Add Application__.
 

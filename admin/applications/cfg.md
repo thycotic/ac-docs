@@ -1,6 +1,7 @@
 [title]: # (Configure Apps)
 [tags]: # (thycotic access control)
 [priority]: # (4)
+
 # Configuring an Application 
 
 To configure an application, it must exist on the panel __and__ be enabled. If the application needs to be added or enabled, refer to [Add Application](index.md) or [Enable/Disable Applications](enable-app.md).
