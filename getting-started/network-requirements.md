@@ -28,6 +28,10 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 
 <br>
 
+![networkreqs](images/ac-network-req.png "windows server")
+
+<br>
+
 ## Account Permission Requirement
 |Item|Permissions|
 |---|---|
@@ -35,31 +39,3 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 |Linux|Sudo Privileges|
 |Database|Any|
 |Web Application|Any|
-
-<br>
-
-## Windows Server Preparation
-
-To make onboarding of Windows server to Remote Access Controller simple, Thycotic provides these PowerShell scripts to run on the local machine targeted for onboarding.
-
-### Windows Server (Non-domain Joined)
-
-> **IMPORTANT:** Make sure you use an account with execution privileges and that the local accounts you are providing access through Access Controller are members of the Remote Desktop Users group.
-
-1. Download the zip file containing the prep scripts and extract its contents.
-1. Store the “WindowsPrep.ps1” script on the target Windows server.
-1. On the target server, click Start, type “PowerShell”, and then click on “Windows PowerShell”.
-1. In the PowerShell window navigate to the location where the script was stored.
-1. Type “WindowsPrep.ps1” and press Enter.
-
-### Windows Server (Domain Joined)
-
-Before provisioning, two PowerShell scripts need to be run on the target server, which configure it accordingly. To run the scripts, follow the instructions below.
-
-> **IMPORTANT:** Make sure you use an account with execution privileges and that the local accounts you are providing access through Access Controller are members of the Remote Desktop Users group.
-
-1. Download the zip file containing the prep scripts and extract its contents
-1. Store the “WindowsPrep.ps1”and “GuacADEnable.ps1” scripts on the target Windows server.
-1. On the target server, click Start, type “PowerShell”, and then click on “Windows PowerShell”.
-1. In the PowerShell window, navigate to the location where the scripts were stored.
-1. Type “WindowsPrep.ps1” and press Enter.

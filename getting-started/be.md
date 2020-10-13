@@ -3,6 +3,10 @@
 [priority]: # (4)
 # Browser Extension
 
+The Browser Extension for **Cloud Access Controller** enforces MFA and automatically logs users in to web applications.
+
+## Installing the Browser Extension
+
 Use the link from your _Thycotic Access Controller Initial Set Up_ email and visit your default browser's extension store to install the Thycotic Access Controller browser extension, shown here for Chrome:
 
 ![ac extension](images/be-icon.png "Browser Extension icon")

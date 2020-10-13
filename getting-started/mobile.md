@@ -1,7 +1,10 @@
 [title]: # (Mobile Registration)
 [tags]: # (registration)
 [priority]: # (5)
+
 # Mobile Device Registration
+
+The Mobile Application enforces **Multi Factor Authentication** for all of Thycotic's Access Controller products.
 
 After a successful [Browser Extension](be.md) installation and registration, follow the link in your registration email, to download the OnionID (Thycotic Access Controller) Application.
 
