@@ -108,12 +108,6 @@ Detailed step by step instructions are provided when __Google Apps__ option is s
 
 Detailed step by step instructions are provided when __ΟΚΤΑ__ option is selected from the __Select import type__ drop down menu.
 
-### Delete All LDAP Users
-
-Requirements: You must have imported users from LDAP to perform this action. See in __Import Users from LDAP__ for more info.
-
-If you wish to delete every user that has been previously imported from LDAP, click the __Delete All LDAP Users__ button. We strongly advise you to use this option only when it’s really necessary and in cases of a faulty or mistaken LDAP import.
-
 >**Caution**: Users are going to be deleted permanently!
 
 ### Import Users from CSV
@@ -162,3 +156,9 @@ To import from LDAP
 * **Import Filtering**: Specify filter settings based on available drop-down options.
 
 ![ldap import 2](images/ldap-2.png "LDAP import mappings and settings")
+
+#### Delete All LDAP Users
+
+* To delete every user that has been previously imported from LDAP, click __Delete All LDAP Users__. 
+
+>**NOTE**: Thycotic strongly advises you to use this option **only** when absolutely necessary such as in cases of a faulty or mistaken LDAP import.
