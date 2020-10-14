@@ -10,30 +10,21 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 
 ## Required Ports
 
-> **Note:** Thycotic has created a set of PowerShell scripts that can be run on any Windows server and will open the necessary ports listed below. Please see the [Windows Server Preparation](../admin/servers/index.md) section to obtain the scripts and to learn more about adding Windows servers to Remote Access Controller.
-
 |    Item    |    Traffic    |    Port(s)    |    Direction    |
 |---|---|---|---|
 | Directory Synchronization | LDAP | 389 - TCP | Inbound|
 ||LDAP(S)| 636 - TCP | Inbound |
 |Linux (Remote Access Controller) | SSH | 22 - TCP | Inbound
-| Windows (Remote Access Controller) | WMI | 22 - TCP | Inbound |
-||SMB| 445 - TCP/UDP|Inbound|
-||RDP| 3389 - TCP/UDP|Inbound|
+| Windows (Remote Access Controller) |SMB|TCP 445|Inbound|
+||RDP| TCP 3389|Inbound|
 ||WinRM| 5985 - TCP|Inbound|
 ||ALL ICMP - PIv4 Ports| N/A|Inbound|
 |Web Applications (Cloud Access Controller)|TCP|Varies by Web Application (Commonly 443, 8443, etc)|Inbound|
 |Databases (Database Access Controller)|TCP|Varies by Database|Inbound|
 |Access Controller Browser Extension|TCP|4443 - TCP|Outbound|
 
-<br>
-
-![networkreqs](images/ac-network-req.png "windows server")
-
-<br>
-
-## Account Permission Requirement
-|Item|Permissions|
+## Account Permission Requirements
+|Thycotic Access Controller Functions|Permissions|
 |---|---|
 |Window|Local Administrator|
 |Linux|Sudo Privileges|

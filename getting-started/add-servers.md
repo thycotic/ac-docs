@@ -24,6 +24,8 @@ Select __Use already registered account credentials__ option if the server you a
 
 Select __Register new account credentials__ option to enter credentials for the new server. Root credentials are required for remote account management (privileges, keys) and system configuration. It is a very common practice if you are also using tools like Chef, Puppet, Ansible etc.
 
+![networkreqs](images/ac-network-req.png "windows server")
+
 ### Windows Server Preparation
 
 To make onboarding of Windows server to Remote Access Controller simple, Thycotic provides these PowerShell scripts to run on the local machine targeted for onboarding.
