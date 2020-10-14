@@ -108,8 +108,6 @@ Detailed step by step instructions are provided when __Google Apps__ option is s
 
 Detailed step by step instructions are provided when __ΟΚΤΑ__ option is selected from the __Select import type__ drop down menu.
 
->**Caution**: Users are going to be deleted permanently!
-
 ### Import Users from CSV
 
 Navigate to __User & Groups__ | __Imports__ and select the __CSV Import Job__ tab. Choose the csv file to import. 
@@ -161,4 +159,4 @@ To import from LDAP
 
 * To delete every user that has been previously imported from LDAP, click __Delete All LDAP Users__. 
 
->**NOTE**: Thycotic strongly advises you to use this option **only** when absolutely necessary such as in cases of a faulty or mistaken LDAP import.
+>**NOTE**: Thycotic strongly advises you to use this option **only** when absolutely necessary such as in cases of a faulty or mistaken LDAP import. Users will be deleted permanently. 
