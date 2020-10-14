@@ -23,6 +23,8 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 |Databases (Database Access Controller)|TCP|Varies by Database|Inbound|
 |Access Controller Browser Extension|TCP|4443 - TCP|Outbound|
 
+<br>
+
 ## Account Permission Requirements
 |Thycotic Access Controller Functions|Permissions|
 |---|---|

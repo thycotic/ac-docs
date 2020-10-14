@@ -24,6 +24,17 @@ Select __Use already registered account credentials__ option if the server you a
 
 Select __Register new account credentials__ option to enter credentials for the new server. Root credentials are required for remote account management (privileges, keys) and system configuration. It is a very common practice if you are also using tools like Chef, Puppet, Ansible etc.
 
+### Required Ports
+
+Use the following ports for Remote Access Controller on Windows Servers
+
+|    Traffic    |    Port(s)    |    Direction    |
+|---|---|---|
+|SMB|TCP 445|Inbound|
+|RDP| TCP 3389|Inbound|
+|WinRM| 5985 - TCP|Inbound|
+|ALL ICMP - PIv4 Ports| N/A|Inbound|
+
 ![networkreqs](images/ac-network-req.png "windows server")
 
 ### Windows Server Preparation
@@ -53,6 +64,16 @@ Before provisioning, two PowerShell scripts need to be run on the target server,
 1. Type “WindowsPrep.ps1” and press Enter.
 
 ## Linux Server
+
+### Required Ports
+
+Use the following ports for Remote Access Controller on Linux Servers
+
+|    Traffic    |    Port(s)    |    Direction    |
+|---|---|---|
+| SSH | 22 - TCP | Inbound|
+
+### Adding Linux Server
 
 For a Linux server, enter its hostname or its static IP and the SSH port if needed. If there is an LDAP service running on your server, choose __Yes__ to the corresponding dropdown menu. If you wish your server to belong to a cluster, click on the respective drop down menu and select the desired cluster.
 
