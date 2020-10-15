@@ -35,15 +35,7 @@ Use the following ports for Remote Access Controller on Windows Servers
 
 To make onboarding of Windows server to Remote Access Controller simple, Thycotic provides these PowerShell scripts to run on the local machine targeted for onboarding.
 
-### Adding a Windows Server
-
-For a Windows server, enter its hostname or its static IP, the RDP port if needed and the domain name that might have been set up.
-
-Select __Use already registered account credentials__ option if the server you are adding uses already stored credentials, which you used in the past for other servers. Choose the server with the same credentials from the dropdown menu that appears below.
-
-Select __Register new account credentials__ option to enter credentials for the new server. Root credentials are required for remote account management (privileges, keys) and system configuration. It is a very common practice if you are also using tools like Chef, Puppet, Ansible etc.
-
-### Windows Server (Non-domain Joined)
+#### Windows Server (Non-domain Joined)
 
 > **IMPORTANT:** Make sure you use an account with execution privileges and that the local accounts you are providing access through Access Controller are members of the Remote Desktop Users group.
 
@@ -53,7 +45,7 @@ Select __Register new account credentials__ option to enter credentials for the 
 1. In the PowerShell window navigate to the location where the script was stored.
 1. Type “WindowsPrep.ps1” and press Enter.
 
-### Windows Server (Domain Joined)
+#### Windows Server (Domain Joined)
 
 Before provisioning, two PowerShell scripts need to be run on the target server, which configure it accordingly. To run the scripts, follow the instructions below.
 
@@ -64,6 +56,16 @@ Before provisioning, two PowerShell scripts need to be run on the target server,
 1. On the target server, click Start, type “PowerShell”, and then click on “Windows PowerShell”.
 1. In the PowerShell window, navigate to the location where the scripts were stored.
 1. Type “WindowsPrep.ps1” and press Enter.
+
+### Adding a Windows Server
+
+For a Windows server, enter its hostname or its static IP, the RDP port if needed and the domain name that might have been set up.
+
+Select __Use already registered account credentials__ option if the server you are adding uses already stored credentials, which you used in the past for other servers. Choose the server with the same credentials from the dropdown menu that appears below.
+
+Select __Register new account credentials__ option to enter credentials for the new server. Root credentials are required for remote account management (privileges, keys) and system configuration. It is a very common practice if you are also using tools like Chef, Puppet, Ansible etc.
+
+
 
 ## Linux Server
 
