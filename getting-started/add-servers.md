@@ -18,12 +18,6 @@ To add a new server
 
 ## Windows Server
 
-For a Windows server, enter its hostname or its static IP, the RDP port if needed and the domain name that might have been set up.
-
-Select __Use already registered account credentials__ option if the server you are adding uses already stored credentials, which you used in the past for other servers. Choose the server with the same credentials from the dropdown menu that appears below.
-
-Select __Register new account credentials__ option to enter credentials for the new server. Root credentials are required for remote account management (privileges, keys) and system configuration. It is a very common practice if you are also using tools like Chef, Puppet, Ansible etc.
-
 ### Required Ports
 
 Use the following ports for Remote Access Controller on Windows Servers
@@ -40,6 +34,14 @@ Use the following ports for Remote Access Controller on Windows Servers
 ### Windows Server Preparation
 
 To make onboarding of Windows server to Remote Access Controller simple, Thycotic provides these PowerShell scripts to run on the local machine targeted for onboarding.
+
+### Adding a Windows Server
+
+For a Windows server, enter its hostname or its static IP, the RDP port if needed and the domain name that might have been set up.
+
+Select __Use already registered account credentials__ option if the server you are adding uses already stored credentials, which you used in the past for other servers. Choose the server with the same credentials from the dropdown menu that appears below.
+
+Select __Register new account credentials__ option to enter credentials for the new server. Root credentials are required for remote account management (privileges, keys) and system configuration. It is a very common practice if you are also using tools like Chef, Puppet, Ansible etc.
 
 ### Windows Server (Non-domain Joined)
 
@@ -73,7 +75,9 @@ Use the following ports for Remote Access Controller on Linux Servers
 |---|---|---|
 | SSH | 22 - TCP | Inbound|
 
-### Adding Linux Server
+<br>
+
+### Adding a Linux Server
 
 For a Linux server, enter its hostname or its static IP and the SSH port if needed. If there is an LDAP service running on your server, choose __Yes__ to the corresponding dropdown menu. If you wish your server to belong to a cluster, click on the respective drop down menu and select the desired cluster.
 

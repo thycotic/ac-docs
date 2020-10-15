@@ -14,7 +14,7 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 |---|---|---|---|
 | Directory Synchronization | LDAP | 389 - TCP | Inbound|
 ||LDAP(S)| 636 - TCP | Inbound |
-|Linux (Remote Access Controller) | SSH | 22 - TCP | Inbound
+|Linux (Remote Access Controller) | SSH | 22 - TCP | Inbound|
 | Windows (Remote Access Controller) |SMB|TCP 445|Inbound|
 ||RDP| TCP 3389|Inbound|
 ||WinRM| 5985 - TCP|Inbound|
@@ -28,7 +28,7 @@ If you are using the Thycotic-hosted Access Controller deployment, **Thycotic su
 ## Account Permission Requirements
 |Thycotic Access Controller Functions|Permissions|
 |---|---|
-|Window|Local Administrator|
-|Linux|Sudo Privileges|
-|Database|Any|
-|Web Application|Any|
+|Control Access to Windows Servers|Local Administrator|
+|Control Access to Linux Servers|Sudo Privileges|
+|Control Access to Databases|Any database account|
+|Control Access to Web Applications|Any web application account|

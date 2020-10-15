@@ -145,7 +145,7 @@ To import from LDAP
     * __Info__ will provide basic log data from the LDAP service.
     * __Debug__ will provide advanced logging.
 1. Input the **Update Time** that sets the interval between consecutive LDAP import requests. 
-    > **NOTE**: Time is set in minutes, so please take caution before setting this field. For example, 1440 m (= 1 day) or 2880 m (= 2 days) would be accepted input.
+    > **NOTE**: Time is set in minutes, so please take caution before setting this field. For example, 1440 m (= 1 day) or 2880 m (= 2 days) would be accepted inputs.
 
 #### Attribute Mappings/Advanced Import Settings/Import Filtering
 
