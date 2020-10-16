@@ -108,14 +108,6 @@ Detailed step by step instructions are provided when __Google Apps__ option is s
 
 Detailed step by step instructions are provided when __ΟΚΤΑ__ option is selected from the __Select import type__ drop down menu.
 
-### Delete All LDAP Users
-
-Requirements: You must have imported users from LDAP to perform this action. See in __Import Users from LDAP__ for more info.
-
-If you wish to delete every user that has been previously imported from LDAP, click the __Delete All LDAP Users__ button. We strongly advise you to use this option only when it’s really necessary and in cases of a faulty or mistaken LDAP import.
-
->**Caution**: Users are going to be deleted permanently!
-
 ### Import Users from CSV
 
 Navigate to __User & Groups__ | __Imports__ and select the __CSV Import Job__ tab. Choose the csv file to import. 
@@ -128,22 +120,43 @@ A CSV sample is available to help you understand the desired format of the uploa
 
 Thycotic Access Control provides you with the capability to import users from your Active Directory/ies into your organization.
 
-![ldap import](images/ldap.png "LDAP import")
+Before importing Users, make sure to open the **Required Ports** for LDAP/AD
 
-Select LDAP from the __Select import type__ drop-down menu and then fill in the required fields that appear. Specifically: 
+|    Traffic    |    Port(s)    |    Direction    |
+|---|---|---|
+|LDAP | 389 - TCP | Inbound|
+|LDAP(S)| 636 - TCP | Inbound |
 
-* LDAP Service Hostname: The hostname of the Active Directory or of another LDAP server, e.g. OpenLDAP.
-* LDAP Service Port: The port that the server above answers to.
-* Certificate Content: If the connection to the server is a secure one, paste the content of the corresponding certificate here.
-* Use SSL/Use SSLv3: Select the type of SSL connection supported by the server above.
-* Searchbase: The location in the LDAP directory that Onion ID LDAP will start looking for users and/or groups.
-* Active Directory: Check this box if Onion ID is going to import users from an Active Directory. Leave it unchecked otherwise.
-* Import Groups: Check this box if you want user groups to be imported as well.
-* Debug Level: Choose __Info__ in order to receive basic log data from the LDAP service. __Debug__ option is for advanced logging.
-* Update time (min): Enter the time interval between consecutive LDAP import requests. Time is in minutes, so please take caution before setting this field. For example, 1440 m (= 1 day) or 2880 m (= 2 days) would be accepted input.
-* Username/password: The required credentials in order to login to the LDAP server.
-* Attribute Mappings: A list of active directory attributes that you want to be imported for every user in the Onion ID Panel. Set in each field the corresponding attribute name used in the in LDAP schema, e.g. either of the active directory or another LDAP implementation.
-* Advanded Import Settings: Specify the default group, if server sync is wanted, and select to optimize LDAP queries.
-* Import Filtering: Specify filter settings based on available drop-down options.
+<br>
+
+To import from LDAP
+
+1. Select LDAP from the __Select import type__ drop-down menu.
+    ![ldap import](images/ldap.png "LDAP import")
+1. Input the **LDAP Service Hostname** of the Active Directory or other LDAP server.
+1. Input the **LDAP Service Port** that the server answers to.
+1. Check the box **Active Directory** box if Access Controller is going to import users from an Active Directory.
+1. Input the **Username** and **password** used to log in to the LDAP server.
+1. If the server requires a certificate, copy and paste the **Certificate Content**.
+1. Check the **Use SSL** or **Use SSLv3** box that corresponds to the server.
+1. Input the **Searchbase** location in the LDAP directory that Access Controller LDAP will start looking for users and/or groups.
+1. Check **Import Groups** to import user groups.
+1. Choose the **Debug Level** from the drop-down menu.
+    * __Info__ will provide basic log data from the LDAP service.
+    * __Debug__ will provide advanced logging.
+1. Input the **Update Time** that sets the interval between consecutive LDAP import requests. 
+    > **NOTE**: Time is set in minutes, so please take caution before setting this field. For example, 1440 m (= 1 day) or 2880 m (= 2 days) would be accepted inputs.
+
+#### Attribute Mappings/Advanced Import Settings/Import Filtering
+
+* **Attribute Mappings**: A list of active directory attributes to be imported for every user in the Access Controller Panel. Input the corresponding **attribute name** used in the in **LDAP schema**.
+* **Advanced Import Settings** Specify the default group, if server sync is wanted, and select to optimize LDAP queries.
+* **Import Filtering**: Specify filter settings based on available drop-down options.
 
 ![ldap import 2](images/ldap-2.png "LDAP import mappings and settings")
+
+#### Delete All LDAP Users
+
+* To delete every user that has been previously imported from LDAP, click __Delete All LDAP Users__. 
+
+>**NOTE**: Thycotic strongly advises you to use this option **only** when absolutely necessary such as in cases of a faulty or mistaken LDAP import. Users will be deleted permanently. 
