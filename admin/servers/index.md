@@ -9,11 +9,11 @@ To add a new server
 
 * Click **Servers** on the left-hand menu and click **Manage**
 
-![servers](images/servers-nav.png "Servers Nav")
+![servers](../../getting-started/images/servers-nav.png "Servers Nav")
 
 * Click __Add Server__ on the top of the main panel. The **Add a New Server** window appears.
 
-![add server](../admin/servers/images/add-server.png "Add a Server")
+![add server](images/add-server.png "Add a Server")
 
 * Use the drop-down menus to configure the new server.
 
@@ -30,7 +30,7 @@ Use the following ports for Remote Access Controller on Windows Servers
 |WinRM| 5985 - TCP|Inbound|
 |ALL ICMP - PIv4 Ports| N/A|Inbound|
 
-![networkreqs](images/ac-network-req.png "windows server")
+![networkreqs](../../getting-started/images/ac-network-req.png "windows server")
 
 ### Windows Server Preparation
 
