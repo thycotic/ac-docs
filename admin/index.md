@@ -3,13 +3,11 @@
 [priority]: # (1000)
 # Administrator's Guide
 
-This manual is intended for use by administrators who will manage Thycotic's Access Control solution inside their organization.
+This manual is intended for use by administrators who will manage Thycotic's Access Control solution inside their organization. It provides security administrators with detailed instructions and references for the setup of the Access Controller environment.
 
-This is a reference document that provides detailed instructions and references for the setup of the proper environment to a company’s security administrators.
+## Topics:
 
-Topics:
-
-* [Activation](getting-started/index.md)
+* [Activation](../getting-started/index.md)
 * [Applications](applications/index.md)
 * [Policies](policies/index.md)
 * [Users & Groups](users/index.md)
