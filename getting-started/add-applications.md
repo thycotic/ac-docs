@@ -1,30 +1,28 @@
-[title]: # (Applications)
+[title]: # (Add Applications)
 [tags]: # (thycotic access control)
-[priority]: # (3)
-# Applications
+[priority]: # (8)
 
-The Applications page shows the applications available in your organization's portal. Use the applications page to add, configure, and remove applications.
+# Add and Configure Applications
 
-![applications home](images/applications.png "Applications home page")
+Access Controller has pre-configured applications that can be configured for your organization. To configure the default applications, see [Configure Applications](../admin/applications/cfg.md).
 
-To filter application based on state, select the Filter drop-down:
+## Add Applications
 
-![filter applications](images/cfg-drop-down.png "Filtering applications based on state and category")
+To add an application
 
-## Add an Application
+1. From the left menu, select __Applications__.
 
-To add a new application
+![applications-nav](images/applications-nav.png "Applications Nav")
 
-1. From the left menu, select __Applications__ .
 1. Click __Add Application__.
 
-   ![add app](images/new-app.png "New Application modal")
+   ![add app](../admin/applications/images/new-app.png "New Application modal")
 1. On the __New Application__ window
 
    * Enter the Application URL
    * Enter the Display Name
    * Choose if the application relates to an existing application and/or if the application is internal.
         * If the new application **is related** to an existing application, the application will be instantly added to your panel. _For example: If your application list already contains Salesforce, and you would like to add Salesforce China, use a unique name such as 'Salesforce China' and specify the appropriate URL. Then, indicate that the new application is related to the already existing 'Salesforce' application from the drop-down list. Usage of this option allows you to have different application tiles for different URLs that point to the same application._
-        * If the new application **does not relate** to an existing application, Thycotic will receive your request and provision this application to the list of available applications within 24 hours. You will be notified with an email when the app is available in your panel. The application will initially appear as disabled, so you will have to enable it as described in: [Enable/Disable Applications](enable-app.md).
+        * If the new application **does not relate** to an existing application, Thycotic will receive your request and provision this application to the list of available applications within 24 hours. You will be notified with an email when the app is available in your panel. The application will initially appear as disabled, so you will have to enable it as described in: [Enable/Disable Applications](../admin/applications/enable-app.md).
         * If internal application is selected, then the application you have added will only be available for your organization's dashboard. This option should be used for non-public applications that are only accessible from inside your organization.
 1. Click __Create__.
