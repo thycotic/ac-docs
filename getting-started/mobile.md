@@ -1,4 +1,4 @@
-[title]: # (Mobile Registration)
+[title]: # (Mobile Registration,setup)
 [tags]: # (registration)
 [priority]: # (5)
 

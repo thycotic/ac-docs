@@ -1,5 +1,5 @@
 [title]: # (Policies)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,2fa)
 [priority]: # (4)
 # Policies
 

@@ -1,5 +1,5 @@
 [title]: # (Add Users)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,setup)
 [priority]: # (6)
 
 # Adding Users and Groups
