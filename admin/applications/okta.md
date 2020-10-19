@@ -1,5 +1,5 @@
 [title]: # (Sync Okta)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,applications,okta)
 [priority]: # (4)
 # Syncing with Okta
 

@@ -1,5 +1,5 @@
 [title]: # (En-/Disable Applications)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,applications)
 [priority]: # (4)
 # Enable/Disable Applications
 
