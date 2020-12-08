@@ -1,5 +1,5 @@
 [title]: # (Mobile Registration)
-[tags]: # (registration)
+[tags]: # (registration,mobile)
 [priority]: # (5)
 
 # Mobile Device Registration

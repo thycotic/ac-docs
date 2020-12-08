@@ -1,5 +1,5 @@
 [title]: # (Configure Apps)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,applications)
 [priority]: # (4)
 
 # Configuring an Application 
@@ -113,6 +113,7 @@ User interaction example:
 
    ![TODO](images/in-app.png "User in application")
 -->
+
 ## Set Location Based Blocking
 
 Checking __Set Location Based Blocking__ restricts user log-ins to a specified location as determined by the user's location at the time this feature was first enabled.
@@ -150,16 +151,15 @@ Privileged URLs are grouped by policy. The default policy is __Restrict all__ wh
 * Αdd a new app related URL by typing the address in the policy related text area.
 * Add a new policy for a group of URLs by clicking the “Add new” button.
 
-<!--
-![TODO](images/multiple.png "Setting multiple policies for restricted URLs")-->
+![privilegedurls](images/privilegedurls.png "privileged urls")
 
 Remember to __Save changes__ for changes to take effect.
 
 ## View/Remove Blocked Elements
 
 The __Blocked Elements__ section shows application elements that have been blocked by the administrator using the browser extension. An administrator can block/disable three types of elements: clickable objects (buttons/links), text, and forms.
-<!-- 
-![TODO](images/blocked.png "Viewing blocked elements") -->
+
+![blockedelement](images/blockedelement.png "blocked elements")
 
 The blocked element's type and code are displayed. Click __Remove element__ to stop blocking a specific element.
 

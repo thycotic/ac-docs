@@ -1,5 +1,5 @@
 [title]: # (Add Applications)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,setup,applications)
 [priority]: # (8)
 
 # Add and Configure Applications

@@ -1,5 +1,5 @@
 [title]: # (Add Servers)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,setup,servers)
 [priority]: # (7)
 
 # Add Server

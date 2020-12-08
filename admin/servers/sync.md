@@ -1,5 +1,5 @@
 [title]: # (Sync Reporting)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,servers)
 [priority]: # (7)
 # Sync Reporting
 
