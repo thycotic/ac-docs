@@ -1,19 +1,10 @@
 [title]: # (Release Notes)
 [tags]: # (thycotic access control)
 [priority]: # (10000)
+
 # Release Notes
 
-| Release Date| Notes|
-|---|---|
-| December 2020| Improvement: Updated UI/UX of the RAC guacamole portal.|
-||Fix: Administrators can generate updated reports.|
-|| Fix: Administrators can view their Organization token for use with AC's API under settings > organization.|
-|| Fix: Daily reports will populate correctly.|
-|| Fix: Corrected automatic sign-in for Godaddy. |
-|| Fix: Corrected automatic sign in for Instagram.|
-|| Fix: Corrected an XSS vulnerability affecting User Import.|
-|| Fix: Corrected an XSS vulnerability affecting Imports History.|
-|| Fix: Corrected an issue where enabling sudo rights for new Linux remote users was not being properly saved.|
+* [December 2020](december2020.md)
 
 ## Initial Release
 
