@@ -1,6 +1,6 @@
 [title]: # (Release Notes)
 [tags]: # (thycotic access control)
-[priority]: # (10)
+[priority]: # (2000)
 
 # Release Notes
 
