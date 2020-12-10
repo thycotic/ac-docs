@@ -4,7 +4,7 @@
 
 | Release Date| Notes|
 |---|---|
-| December 2020| Improvement: Updated UI/UX of the RAC guacamole portal.|
+| December 2020 v1.67.2| Improvement: Updated UI/UX of the RAC guacamole portal.|
 ||Fix: Administrators can generate updated reports.|
 || Fix: Administrators can view their Organization token for use with AC's API under settings > organization.|
 || Fix: Daily reports will populate correctly.|
