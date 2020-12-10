@@ -1,5 +1,5 @@
 [title]: # (Getting Started)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,setup)
 [priority]: # (1)
 
 # Getting Started Checklist
