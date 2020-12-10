@@ -1,4 +1,4 @@
-[title]: # (Release Notes)
+[title]: # (Initial Release)
 [tags]: # (Initial Release)
 [priority]: # (1000)
 

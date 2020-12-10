@@ -1,4 +1,4 @@
-[title]: # (December 2020 Release)
+[title]: # (December 2020)
 [tags]: # (thycotic access control)
 [priority]: # (999)
 
