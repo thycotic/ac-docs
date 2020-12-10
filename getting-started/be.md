@@ -1,5 +1,5 @@
 [title]: # (Browser Extensions)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,setup)
 [priority]: # (4)
 # Browser Extension
 

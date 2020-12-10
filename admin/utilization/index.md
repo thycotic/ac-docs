@@ -15,7 +15,7 @@ Under this subsection you can view the applications which have been less used by
 <!--
 ![TODO](images/least-used.png "Least used apps") -->
 
-This piece of information help you understand if it worth keep paying for application licences that are not used. Click on the __View User Details__ to view the infrequent users and the amount of logins performed by them in the past one to three months.
+Use this to determine if it is worth keeping application licenses that are used infrequently. Click on the __View User Details__ to view the infrequent users and the amount of logins performed by them in the past one to three months.
 <!-- 
 ![TODO](images/infrequent-users.png "Infrequent users") -->
 
@@ -25,7 +25,7 @@ As shown, you can have a quick review of your financial data from the charts ill
 
 ## View License Management & Cost
 
-Let’s say that you have bought a licence for an application that has been integrated in the Access Controller in order for your organization's users to be able to login through the browser extension/mobile app, you can add the license here.  
+If you bought a licence for an application that has been integrated in the Access Controller in order for your organization's users to be able to login through the browser extension/mobile app, you can add the license here.  
 Click on the __Add License__ button to add your licence financial information to the panel and then click __Submit__ button. 
 
 ![add](images/add-license.png "Add license")

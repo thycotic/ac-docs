@@ -1,9 +1,10 @@
 [title]: # (Release Notes)
 [tags]: # (thycotic access control)
 [priority]: # (10000)
+
 # Release Notes
 
-This section includes the most recent Thycotic Access Controller Release Notes.
+* [December 2020](december2020.md)
 
 ## Initial Release
 

@@ -1,5 +1,5 @@
 [title]: # (Statistics)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,ssh)
 [priority]: # (7)
 # Statistics
 
@@ -18,15 +18,20 @@ In the table, you are able to view the accounts that run the specified command, 
 From the far right column, click on the __Download__ or __Replay__ buttons to download the command history log file or replay it in the browser respectively.
 
 ## View Server Usage
-<!--
-![TODO](images/usage-location.png "Server usage by location") -->
 
-In the map shown above, you can spot the location of the provisioned servers used by the organization.
+In the map shown below, you can spot the location of the provisioned servers used by the organization.
+
+![usage-location](images/usage-location.png "Server usage by location")
+
 
 ## View User Activity
-<!--
-![TODO](images/user-activity.png "User activity") -->
 
 The chart shown illustrates users’ logins in a period of time. By pointing on every dot you can view the number of server logins that performed on a specific day. Click on the link below the date to view details regarding the users that logged in.
-<!--
-![TODO](images/successful-login.png "Successful login details") -->
+
+![user-activity](images/user-activity.png "User activity")
+
+## Authentication Techniques
+
+The chart shows the authentication techniques used for different policies, apps, and users.
+
+![successful-login](images/successful-login.png "Successful login details")
