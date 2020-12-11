@@ -4,5 +4,7 @@
 
 # Release Notes
 
-* [December 2020](december2020.md)
-* [Initial Release](initialrelease.md)
+|Release Date| Version|
+|---|---|
+|[December 2020 ](december2020.md)|v1.67.2|
+|[May 2020](initialrelease.md)| Initial Release|
