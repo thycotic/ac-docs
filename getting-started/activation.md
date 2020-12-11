@@ -1,5 +1,5 @@
 [title]: # (Activation)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,setup)
 [priority]: # (3)
 
 # Activation

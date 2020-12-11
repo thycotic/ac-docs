@@ -25,8 +25,8 @@ The new URL is now displayed in the blocked URLs table at the top of the main pa
 ## Enable/Disable Blocked Categories
 
 The __Categories__ list shows all available filtered categories. Check the box next to each category to block the websites in that category.
-<!--
-![TODO](images/blocked-cat.png "Blocked content categories") -->
+
+![blockedcat](images/blocked-cat.png "Blocked content categories")
 
 ### Add Organization Exception URL
 

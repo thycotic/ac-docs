@@ -1,5 +1,5 @@
 [title]: # (SSH Blocked Users)
-[tags]: # (thycotic access control)
+[tags]: # (thycotic access control,ssh)
 [priority]: # (8)
 # SSH Blocked List
 
