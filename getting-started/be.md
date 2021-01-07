@@ -7,14 +7,17 @@ The Browser Extension for **Cloud Access Controller** enforces MFA and automatic
 
 ## Installing the Browser Extension
 
-Use the link from your _Thycotic Access Controller Initial Set Up_ email and visit your default browser's extension store to install the Thycotic Access Controller browser extension, shown here for Chrome:
+1. Use the link from your _Thycotic Access Controller Initial Set Up_ email or visit your default browser's extension store to install the Thycotic Access Controller browser extension. This guide uses the Chrome browser as an example installation.
+    
+    [Access Controller Extension for Chrome](https://chrome.google.com/webstore/detail/thycotic-access-controlle/iecelabbmmbhdepbemppjplnkenhoemo)
 
-![ac extension](images/be-icon.png "Browser Extension icon")
+    [Access Controller Extension for Firefox](https://addons.mozilla.org/mn/firefox/addon/thycoticaccesscontroller/)
+1.  Once the extension is installed, you will see the Thycotic Access Controller icon in your extension bar. If you cannot see the icon, you may have to restart your browser for the extension to finish installation.
 
-Once the extension is installed and you open the Access Controller login page, the registration banner is displayed on top of your login page.
+    ![ac extension](images/be-icon.png "Browser Extension icon")
 
-![extension registration](images/be-reg.png "Browser Extension registration reminder")
-
+1. Open the [Thycotic Access Controller login page](https://thycoticaccesscontroller.com/login). The registration banner is displayed on top of your login page.
+    ![extension registration](images/be-reg.png "Browser Extension registration reminder")
 1. Click the __here__ link in the message banner.
 1. The Registration modal opens, prompting you for the Registration Code that has been emailed to you.
 
