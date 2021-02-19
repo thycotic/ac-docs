@@ -6,7 +6,10 @@
 
 The Mobile Application enforces **Multi Factor Authentication** for all of Thycotic's Access Controller products.
 
-After a successful [Browser Extension](be.md) installation and registration, follow the link in your registration email, to download the OnionID (Thycotic Access Controller) Application.
+After a successful [Browser Extension](be.md) installation and registration, follow the link in your registration email or go directly to the [iOS](https://apps.apple.com/us/app/onionid/id954836301) or [Android Store](https://play.google.com/store/apps/details?id=com.programize.onionid&hl=en_US&gl=US) to download the Thycotic Access Controller Application.
+
+> **Note:** The iOS Access Controller Application is branded as **OnionID**.
+
 
 ![email 2](images/mobile-email.png "Email prompting to download the mobile app for device registration")
 
