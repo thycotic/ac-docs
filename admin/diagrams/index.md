@@ -70,7 +70,3 @@ A lot of thought has been put into the monitoring plan of the infrastructure and
 All the application logs are kept centrally in CloudWatch, Amazon’s monitoring service. A wide variety of alarms has been established that automatically look for failures in the logs. In addition, other sets of alarms monitor the AWS resources that the application uses.
 
 In case an alarm is triggered, then a notification is sent to a designated notification topic. The payload is then posted to a Lambda function that parses it for a first level of screening and classification of the event. Finally, a notification is sent to the DevOps team with the necessary info to handle the incident.
-
-## Reference
-
-1. Vault by Hashicorp. https://www.vaultproject.io/.
